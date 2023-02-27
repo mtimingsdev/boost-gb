@@ -1,0 +1,19 @@
+<div class="block {{#if bg '===' 'dark'}}{{else}}block-grey-lt{{/if}} bk-shop-by-brand">
+    <div class="container">
+        {{#if title '!=' '0'}}
+            <h2>{{lang 'brand.shop_by_brand'}}</h2>
+        {{/if}}
+        <ul class="s-by-brand">
+            {{#each shop_by_brand}}
+                <li class="s-by-brand-item">
+                    <a href="{{url}}">
+                        <img src="{{cdn (concat (concat 'img/home/brands/' (dashcase name)) '.png')}}" alt="{{name}} Logo">
+                        <p class="s-by-brand-name">
+                            {{{name}}} <i class="icon-chevron-right"></i>
+                        </p>
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

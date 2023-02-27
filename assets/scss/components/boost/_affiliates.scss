@@ -1,0 +1,67 @@
+.block.affiliate-banner.franchise{
+    padding: 0;
+}
+
+.block.bk-category.affiliate-banner.franchise {
+    padding-bottom: 0;
+    min-height: 109px;
+
+    @include breakpoint("large") {
+      min-height: 500px;
+  }
+
+    @include breakpoint("medium") {
+      min-height: 248px;
+  }
+
+  @include breakpoint("small") {
+    min-height: 113px;
+  }
+}
+
+.affiliate-banner.franchise [data-sub-layout] {
+    margin: 0;
+    padding: 0;
+}
+
+table.vbucks {
+    border: 10px solid #FF627F;
+    background-color: #000000;
+    width: 500px;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.vbucks td, table.vbucks th {
+    border: 9px solid #FF627F;
+    padding: 6px 6px;
+    text-transform: uppercase;
+  }
+  table.vbucks tbody td {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF627F;
+  }
+  table.vbucks tfoot td {
+    font-size: 14px;
+  }
+  table.vbucks tfoot .links {
+    text-align: right;
+  }
+  table.vbucks tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  .franchise .css-1clkqco a, .franchise .css-1wn6xct,  .franchise .css-1eew03s{
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .pinkbar{
+    min-height: 3px;
+    border-top: 3px solid #fe466c;
+    width: 100%; 
+  }

@@ -1,0 +1,41 @@
+// =============================================================================
+// Styling for Simple Accordion
+// =============================================================================
+
+.simple-accordion {
+    display: none;
+
+    .flip-icon {
+        &:before {
+            transform: rotateX(180deg);
+        }
+    }
+
+    .simple-accordion-button {
+        padding: 0;
+        margin: 0;
+    }
+
+    .simple-accordion-content {
+        display: none;
+    }
+
+    .sa-icon {
+        margin-left: 5px;
+    }
+
+    @include breakpoint("medium") {
+        .simple-accordion-content {
+            display: block !important;
+        }
+
+        &:focus {
+            outline: none;
+        }
+     
+        .sa-icon {
+            display: none;
+        }
+    }
+
+}

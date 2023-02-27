@@ -1,0 +1,15 @@
+    <div class="container">
+        <div class="block bk-featured-products">
+            <div class="home-featured-cont">
+                <h2 class="home-featured-title">{{lang 'home.featured_products.title'}}</h2>
+                <a href="{{lang 'home.featured_products.button_link'}}" class="button home-featured-btn"><span>{{lang 'home.featured_products.button_text'}}</span><i class="icon icon-chevron-right"></i></a>
+            </div>
+            <section class="home-featured-products">
+                {{#each products}}
+                    <div class="featured-product">
+                        {{> components/products/card settings=../settings theme_settings=../theme_settings customer=../customer event="list" position=(add @index 1)}}
+                    </div>
+                {{/each}}
+            </section>
+        </div>
+    </div>

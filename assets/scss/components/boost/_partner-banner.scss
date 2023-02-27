@@ -1,0 +1,40 @@
+.partner-banner {
+    padding: 40px 0 10px 0;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @include breakpoint("medium") {
+        padding: 40px 0;
+        text-align: left;
+        min-height: 300px;
+        flex-direction: row;
+    }
+
+    .container {
+        @include breakpoint("medium") {
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .pb-cont {
+        @include breakpoint("medium") {
+            @include grid-column(7);
+            padding-left: 0;
+            align-self: flex-end;
+        }
+    }
+
+    h1 {
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 1.3em;
+
+        @include breakpoint("medium") {
+            line-height: 36px;
+        }
+    }
+}

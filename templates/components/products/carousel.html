@@ -1,0 +1,41 @@
+{{#if template '==' 'pages/home'}}
+    <div class="container">
+        <div class="block bk-featured-products">
+{{/if}}
+            <h2>{{lang 'products.featured'}}</h2>
+            <section class="productCarousel"
+            data-list-name="{{list}}"
+            data-slick='{
+                "dots": true,
+                "infinite": false,
+                "mobileFirst": true,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "responsive": [
+                    {
+                        "breakpoint": 551,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 800,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    }                    
+                ]
+            }'
+            >
+                {{#each products}}
+                    <div class="productCarousel-slide">
+                        {{> components/products/card settings=../settings theme_settings=../theme_settings customer=../customer event="list" position=(add @index 1)}}
+                    </div>
+                {{/each}}
+            </section>
+{{#if template '==' 'pages/home'}}
+        </div>
+    </div>
+{{/if}}

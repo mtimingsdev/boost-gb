@@ -1,0 +1,87 @@
+---
+category:
+    shop_by_price: true
+    products:
+        limit: {{theme_settings.categorypage_products_per_page}}
+products:
+    featured:
+        limit: {{theme_settings.homepage_featured_products_count}}
+carousel: {{theme_settings.homepage_show_carousel}}
+---
+
+{{inject "categoryProductsPerPage" theme_settings.categorypage_products_per_page}}
+{{inject "categoryId" category.id}}
+{{#partial "head"}}
+    {{#if pagination.category.previous}}
+        <link rel="prev" href="{{pagination.category.previous}}">
+    {{/if}}
+    {{#if pagination.category.next}}
+        <link rel="next" href="{{pagination.category.next}}">
+    {{/if}}
+{{/partial}}
+
+{{#partial "no-container"}}
+
+    <div class="block bk-category" style="background-image: url({{#if category.image}}{{getImage category.image}}{{/if}});">
+        <div class="container">
+            {{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
+            <div class="banner-content">
+                <h1 class="page-heading">
+                    {{#if categories}}
+                        {{#each categories}}
+                            {{#if is_active}}
+                                {{#each children}}
+                                    {{#if is_active}}
+                                        {{name}}
+                                    {{/if}}
+                                {{/each}}
+                            {{/if}}
+                        {{/each}}
+                    {{/if}}
+                </h1>
+                {{{category.description}}}
+            </div>
+        </div>
+    </div>
+
+    <div class="page container">
+        <main class="page-content" id="product-listing-container">
+            {{#if category.products}}
+                {{> components/category/product-listing}}
+            {{else}}
+                <p>{{lang 'categories.no_products'}}</p>
+            {{/if}}
+            {{{region name="category_below_content"}}}
+        </main>
+    </div>
+
+    {{#if categories}}
+        {{#each categories}}
+            {{#if is_active}}
+                {{#if children}}
+                    {{#each children}}
+                        {{#if is_active}}
+                            {{#each children}}
+                                {{#if is_active}}
+                                {{else}}
+                                    <div class="block txt-img txt-img-brand">
+                                        <div class="container">
+                                            <div class="txt-img-img txt-img-img--category" style="background-image: url('{{getImage image}}');"></div>
+                                            <div class="txt-img-content">
+                                                <h2 class="txt-img-title">{{name}}</h2>
+                                                <p>{{description}}</p>
+                                                <a href="{{url}}" class="button button--large">Shop {{name}}</a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                {{/if}}
+                            {{/each}}
+                        {{/if}}
+                    {{/each}}
+                {{/if}}
+            {{/if}}
+        {{/each}}
+    {{/if}}
+
+{{/partial}}
+{{> layout/base}}

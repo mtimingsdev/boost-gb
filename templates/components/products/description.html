@@ -1,0 +1,7 @@
+<h2 class="productView-title">{{lang 'products.description'}}</h2>
+<div class="productView-description" {{#if settings.data_tag_enabled}} data-event-type="product" {{/if}}>
+    {{{product.description}}}
+
+    {{#if product.brand}}<p class="no-margin">Brand: <span itemprop="brand">{{product.brand.name}}</span></p>{{/if}}
+    {{#if product.sku}}<p class="no-margin">SKU: <span itemprop="sku">{{{product.sku}}}</span></p>{{/if}}
+</div>

@@ -1,0 +1,41 @@
+<html>
+    <body style="font-family:Arial; font-size:12px; margin: 0; padding: 20px;">
+        <div>
+            %%GLOBAL_NoPaymentTaken%%
+            <h2 style="font-size: 22px; height: 30px; color: #cc6600; border-bottom: dashed 1px gray;">Thanks for Your Order</h2>
+            <div style="width: 100%; padding: 10px; background-color: #fff4ea;">
+                <img src="https://cdn11.bigcommerce.com/r-7f3397d2ae83e8b48dd889540b7b618246f07f43/themes/ClassicNext/images/InfoMessage.gif" alt="" />
+                &nbsp; Your order ID is <strong>#%%GLOBAL_OrderNumber%%</strong>. %%GLOBAL_ViewOrderStatusMsg%%
+            </div>
+            %%GLOBAL_PendingPaymentNotice%% <br />
+            <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td id="Left" valign="top" width="50%">
+                            <h3 style="font-family: Arial; font-size: 18px;">Shipping Address</h3>
+                            <div style="font-family: Arial; font-size: 12px;">%%GLOBAL_ShippingAddress%%</div>
+                            <!--
+                            <div style="%%GLOBAL_HideShippingEmail%%">Email: %%GLOBAL_ShippingEmail%%</div>
+                            -->
+                        </td>
+                        <td id="Right" valign="top" width="50%">
+                            <h3 style="font-family: Arial; font-size: 18px;">Billing Address</h3>
+                            <div style="font-family: Arial; font-size: 12px;">%%GLOBAL_BillingAddress%%</div>
+                            <!--
+                                <div style="%%GLOBAL_HideBillingEmail%%">Email: %%GLOBAL_BillingEmail%%</div>
+                            -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br /> 
+            %%GLOBAL_PendingPaymentDetails%% %%GLOBAL_OrderCommentBlock%%
+            <h3 style="font-size: 18px;">Your Order Contains...</h3>
+            %%GLOBAL_CartItemColumns%% 
+            %%SNIPPET_CartItems%% 
+            %%SNIPPET_TotalRows%% 
+            %%SNIPPET_PaymentMethod%% 
+            %%GLOBAL_EmailFooter%%
+        </div>
+    </body>
+</html>

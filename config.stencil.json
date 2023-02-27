@@ -1,0 +1,113 @@
+{
+  "customLayouts": {
+    "brand": {},
+    "category": {
+      "category_all_products.html": [
+        "/all-products/"
+      ],
+      "category_shop_by_brand.html": [
+        "/shop-by-brand/"
+      ],
+      "category_brands.html": [
+        "/shop-by-brand/minecraft/",
+        "/shop-by-brand/apple/",
+        "/shop-by-brand/nintendo/",
+        "/shop-by-brand/xbox/",
+        "/shop-by-brand/playstation/",
+        "/shop-by-brand/riot/",
+        "/shop-by-brand/google/",
+        "/shop-by-brand/blizzard/",
+        "/shop-by-brand/ea/"
+      ],
+      "category_brands_type.html": [
+        "/shop-by-brand/minecraft/full-game-downloads/",
+        "/shop-by-brand/minecraft/dlc-add-ons/",
+        "/shop-by-brand/minecraft/wallet-top-ups/",
+        "/shop-by-brand/minecraft/subscriptions/",
+        "/shop-by-brand/apple/full-game-downloads/",
+        "/shop-by-brand/apple/dlc-add-ons/",
+        "/shop-by-brand/apple/wallet-top-ups/",
+        "/shop-by-brand/apple/subscriptions/",
+        "/shop-by-brand/blizzard/full-game-downloads/",
+        "/shop-by-brand/blizzard/dlc-add-ons/",
+        "/shop-by-brand/blizzard/wallet-top-ups/",
+        "/shop-by-brand/blizzard/subscriptions/",
+        "/shop-by-brand/ea/full-game-downloads/",
+        "/shop-by-brand/ea/dlc-add-ons/",
+        "/shop-by-brand/ea/wallet-top-ups/",
+        "/shop-by-brand/ea/subscriptions/",
+        "/shop-by-brand/google/full-game-downloads/",
+        "/shop-by-brand/google/dlc-add-ons/",
+        "/shop-by-brand/google/wallet-top-ups/",
+        "/shop-by-brand/google/subscriptions/",
+        "/shop-by-brand/nintendo/full-game-downloads/",
+        "/shop-by-brand/nintendo/dlc-add-ons/",
+        "/shop-by-brand/nintendo/wallet-top-ups/",
+        "/shop-by-brand/nintendo/subscriptions/",
+        "/shop-by-brand/playstation/full-game-downloads/",
+        "/shop-by-brand/playstation/dlc-add-ons/",
+        "/shop-by-brand/playstation/wallet-top-ups/",
+        "/shop-by-brand/playstation/subscriptions/",
+        "/shop-by-brand/riot/full-game-downloads/",
+        "/shop-by-brand/riot/dlc-add-ons/",
+        "/shop-by-brand/riot/wallet-top-ups/",
+        "/shop-by-brand/riot/subscriptions/",
+        "/shop-by-brand/xbox/full-game-downloads/",
+        "/shop-by-brand/xbox/dlc-add-ons/",
+        "/shop-by-brand/xbox/wallet-top-ups/",
+        "/shop-by-brand/xbox/subscriptions/"
+      ],
+      "category_product_type.html": [
+        "/all-products/dlc-add-ons/",
+        "/all-products/full-game-downloads/",
+        "/all-products/subscriptions/",
+        "/all-products/wallet-top-ups/"
+      ],
+      "affiliate_basic.html": [
+        "/affiliates/layout-examples/basic-layout/"
+      ],
+      "affiliate_normal.html": [
+        "/affiliates/layout-examples/normal-layout/"
+      ],
+      "affiliate_advanced_fortnite.html": [
+        "/affiliates/layout-examples/advanced-layout-fortnite/"
+      ],
+      "affiliate_advanced_fifa.html": [
+        "/affiliates/layout-examples/advanced-layout-fifa/"
+      ],
+      "affiliate_advanced_callofduty.html": [
+        "/affiliates/layout-examples/advanced-layout-call-of-duty/"
+      ],
+      "affiliate_advanced_apexlegends.html": [
+        "/affiliates/layout-examples/advanced-layout-apex-legends/"
+      ],
+      "category_promo_brand.html": [
+        "/fifa/"
+      ],
+      "category_promo_product_type.html": [
+        "/promo-xbox/"
+      ],
+      "category_franchise.html": [
+        "/categories/promotional-pages/bob.html"
+      ]
+    },
+    "page": {
+      "page-about.html": [
+        "/about-us/"
+      ],
+      "page-contact.html": [
+        "/contact-us/"
+      ],
+      "page-faq.html": [
+        "/faqs/"
+      ],
+      "page-gift-guide.html": [
+        "/gift-guide/"
+      ]
+    },
+    "product": {}
+  },
+  "normalStoreUrl": "https://be.boostgaming.com",
+  "port": "3000",
+  "apiHost": "https://api.bigcommerce.com"
+}

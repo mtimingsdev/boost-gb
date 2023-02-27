@@ -1,0 +1,34 @@
+{{#with theme_settings}}
+    <div class="">
+        <div class="footer-payment-info">
+            <p class="footer-info-heading payment">{{lang 'footer.payment_header'}}</p>
+            <div class="footer-payment-icons">
+                {{#if show_accept_visa}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-visa"></use></svg>
+                {{/if}}
+                {{#if show_accept_mastercard}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-mastercard"></use></svg>
+                {{/if}}
+                
+                {{#if show_accept_discover}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-discover"></use></svg>
+                {{/if}}
+                {{#if show_accept_amex}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-american-express"></use></svg>
+                {{/if}}
+                {{#if show_accept_paypal}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-paypal"></use></svg>
+                {{/if}}
+                {{#if show_accept_amazonpay}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-amazonpay"></use></svg>
+                {{/if}}
+                {{#if show_accept_googlepay}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-googlepay"></use></svg>
+                {{/if}}
+                {{#if show_accept_klarna}}
+                <svg class="footer-payment-icon"><use xlink:href="#icon-logo-klarna"></use></svg>
+                {{/if}}
+            </div>
+        </div>
+    </div>  
+{{/with}}

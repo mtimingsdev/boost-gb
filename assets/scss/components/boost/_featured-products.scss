@@ -1,0 +1,196 @@
+// HERO CAROUSEL
+// -----------------------------------------------------------------------------
+//
+// Purpose: Styles the hero carousel component, which basically adds extras to the
+// vendor slick carousel, to specifically display hero images.
+//
+// 1. Use object-fit on the image tag to keep aspect ratio and cover the space
+//    created by the outer div. The JS will detect browsers that do not support
+//    object-fit and instead copy the image src to a the background-image of the
+//    wrapper div and add the compat-object-fit class.
+//
+// 2. Visually overrides the top margin for '.body' defined in _body.scss.
+//    The '.body' top margin creates space between the header and page content.
+//    However, on the homepage, we want the carousel to be flush with the header.
+//
+// 3. Allows image to scale on large screens while preventing the top and bottom
+//    from becoming cut off.
+// -----------------------------------------------------------------------------
+
+.featuredCarousel {
+    width: 1px;
+    min-width: 100%;
+    font-family: $header-font-family;
+
+    &.slick-initialized { // 2
+        max-height: remCalc(1000);
+        opacity: 1;
+    }
+
+    &:not(.slick-initialized) :not(.featuredCarousel-slide--first).featuredCarousel-slide {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: 50%;
+    }
+
+    .slick-next {
+        right: 15px;
+
+        @include breakpoint("medium") {
+            right: 25px;
+        }
+    }
+
+    .slick-prev {
+        left: 15px;
+
+        @include breakpoint("medium") {
+            left: 25px;
+        }
+    }
+
+    .slick-dots {
+        bottom: spacing("third");
+
+        @include breakpoint("medium") {
+            bottom: spacing("single");
+        }
+
+        // scss-lint:disable SelectorDepth, NestingDepth
+        li {
+            @include carouselOpaqueBackgrounds($slick-dot-bgColor);
+        }
+    }
+}
+
+.featuredCarousel-slide {
+    position: relative;
+
+    @media (max-width: 801px) {
+        margin: 0 0 spacing("single") 0;
+        width: 100% !important;
+        float: none;
+    }
+
+    @include breakpoint("medium") {
+        float: left;
+        margin: 0 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .featuredCarousel-image {
+        @include breakpoint("medium") {
+            object-fit: cover; // 1
+            max-height: remCalc(600px);
+            width: 100%;
+        }
+    }
+
+    .fgeaturedCarousel-image-wrapper {
+        @include breakpoint("medium") {
+            max-height: remCalc(600px);
+        }
+    }
+
+    &.compat-object-fit { // 1
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+
+        &.stretch {
+            @include breakpoint("large") { // 4
+                background-size: 100% 100%;
+            }
+        }
+
+        .featuredCarousel-image {
+            opacity: 0;
+        }
+    }
+
+    &--first {
+        margin-left: 0;
+
+        button {
+            background-color: transparent;
+        }
+    }
+
+    &--last {
+        margin-right: 0;
+    }
+}
+
+.featuredCarousel-content {
+    padding: spacing("half") 0 0 0;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint("medium") {
+        padding: 36px 0 0 0;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &.featuredCarousel-content--empty {
+            background-color: transparent;
+        }
+    }
+}
+
+
+.featuredCarousel-cta {
+    order: 2;
+    padding-top: spacing("half");
+    flex-shrink: 0;
+
+    .button {
+        padding-left: spacing("single") + spacing("half");
+        padding-right: spacing("single") + spacing("quarter");
+    }
+}
+
+.featuredCarousel-title {
+    font-size: fontSize("small");
+    margin: 0;
+    font-weight: bold;
+    line-height: normal;
+
+    @include breakpoint("medium") {
+        font-size: 0.8235rem;
+    }
+}
+
+.featuredCarousel-description {
+    font-size: fontSize("tiny");
+    margin-bottom: 0;
+    letter-spacing: 3px;
+
+    @include breakpoint("small") {
+        font-size: fontSize("smallest");
+    }
+
+    @include breakpoint("medium") {
+        font-size: 1.706rem;
+    }
+}
+
+.featuredCarousel-action {
+    margin: 0;
+
+    @include breakpoint("medium") {
+        float: right;
+    }
+}

@@ -1,0 +1,45 @@
+{{#if banners.top}}
+<div class="banners" data-banner-location="top">
+    {{#each (limit banners.top_metadata 1)}}
+    <div class="banner" data-event-type="promotion" data-entity-id="{{this.id}}" data-name="{{this.banner-name}}" data-position="{{this.location}}" data-banner-id="{{this.banner-name}}">
+        <div data-event-type="promotion-click">
+            {{{this.content}}}
+        </div>
+    </div>
+    {{/each}}
+</div>
+{{/if}}
+<header class="header" role="banner">
+    <div class="header-wrapper">
+        <div class="container">
+            <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+                <span class="mobileMenu-toggleIcon">Toggle menu</span>
+            </a>
+            {{> components/common/navigation}}
+        
+            {{#if page_type '===' 'default'}}
+                {{> components/common/store-logo}}
+            {{else}}
+                {{> components/common/store-logo}}
+            {{/if}}
+            <div class="affiliate-header" id="js-affiliateHeader">
+                <span class="affiliate-with" id="js-affiliateWith"></span>
+                <img src="" alt="" id="js-affiliateLogo">
+            </div>
+        </div>
+    </div>
+
+    <div class="navPages-quickSearch">
+        {{> components/common/quick-search}}
+    </div>
+
+    <div class="navPages-container" id="menu" data-menu>
+        <div class="container">
+            {{> components/common/navigation-menu}}
+        </div>
+        
+    </div>
+
+</header>
+{{{region name="header_bottom"}}}
+{{> components/common/usp-block }}

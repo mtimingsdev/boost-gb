@@ -1,0 +1,7 @@
+{{#each facets}}
+    {{#if title '===' 'Brand' }}
+        {{#each items}}
+        <p style="display:none">{{incrementVar "totalCount"}}</p>
+        {{/each}}
+    {{/if}}
+{{/each}}

@@ -1,0 +1,75 @@
+// Styling for featured products on home
+
+.home-featured-products {
+    display: flex;
+    flex-wrap: wrap;
+
+    .featured-product {
+        @include grid-column(6);
+
+        @include breakpoint("small") {
+            width: grid-calc(4, $total-columns);
+        }
+    
+        @include breakpoint("medium") {
+            width: grid-calc(3, $total-columns);
+        }
+
+        .card {
+            height: calc(100% - 1rem);
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.home-featured-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    @include breakpoint("medium") {
+        padding: spacing("half");
+    }
+
+    a i {
+        vertical-align: top;
+    }
+
+    h2 {
+        margin: 0;
+        color: stencilColor("home-featured-cont-color");
+        
+    }
+
+    & .button {
+        border-color: stencilColor("featured-cont-button-border");
+        color: stencilColor("featured-cont-button-font-color"); 
+        background: stencilColor("featured-cont-button-bg");
+
+
+    }
+    & .button:hover {
+        background: #84b1ce;
+    }
+}
+
+.home-featured-title {
+    margin: 0;
+    text-align: left;
+
+    @include breakpoint("medium") {
+        width: auto;
+    }
+}
+
+.home-featured-btn {
+    padding: 8px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+
+    @include breakpoint(medium) {
+        padding: spacing("half") spacing("single");
+    }
+}

@@ -1,0 +1,73 @@
+---
+category:
+    shop_by_price: true
+    products:
+        limit: {{theme_settings.categorypage_products_per_page}}
+---
+
+{{inject "categoryProductsPerPage" theme_settings.categorypage_products_per_page}}
+{{inject "categoryId" category.id}}
+{{#partial "head"}}
+    {{#if pagination.category.previous}}
+        <link rel="prev" href="{{pagination.category.previous}}">
+    {{/if}}
+    {{#if pagination.category.next}}
+        <link rel="next" href="{{pagination.category.next}}">
+    {{/if}}
+{{/partial}}
+
+{{#partial "no-container"}}
+    
+    <style>
+        .affiliate-banner {
+            background-image: url({{#if category.image}}{{getImage category.image}}{{/if}});
+        }
+    </style>
+
+    <div class="block bk-category affiliate-banner">
+        <div class="container">
+            <div class="ab-cont">
+                {{#unless theme_settings.hide_category_page_heading }}
+                    <h1 class="page-heading" id="js-AffiliateName">{{category.name}}</h1>
+                    {{{region name="category_below_header"}}}
+                {{/unless}}
+                {{{category.description}}}
+                <div class="affiliate-share">
+                    <span class="affiliate-share-txt">Share this page</span> {{> components/common/share}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block txt-img block-grey-lt">
+        <div class="container">
+            <div class="txt-img-img">
+                <img src="/product_images/uploaded_images/affiliate-advanced-callofduty.png" alt="Call of Duty">
+            </div>
+            <div class="txt-img-content">
+                <h2 class="txt-img-title">Call of Duty</h2>
+                <p>Phasellus rutrum vel lectus id fermentum. Donec ullamcorper viverra metus, non vulputate lorem sagittis ut. Mauris et auctor odio, vel blandit dui.</p>
+                <a href="#" class="button button--large">Call of Duty</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page container">
+        <main class="page-content" id="product-listing-container">
+            {{#if category.products}}
+                {{> components/category/product-listing}}
+            {{else}}
+                <p>{{lang 'categories.no_products'}}</p>
+            {{/if}}
+            {{{region name="category_below_content"}}}
+        </main>
+    </div>
+
+    {{> components/boost/shop-by-brand}}
+
+    {{> components/boost/product-type-blocks}}
+
+{{/partial}}
+{{> layout/base}}
+
+<script src="{{cdn 'assets/js/theme/affiliate-set-cookie.js'}}"></script>

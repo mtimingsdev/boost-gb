@@ -1,0 +1,12 @@
+<form class="actionBar" method="get" data-sort-by>
+    {{#if template '!=' 'pages/custom/category/category_brands_type'}}
+        <h2 class="all-products-title">{{lang 'products.title'}}</h2>
+    {{/if}}
+    {{#if template '===' 'pages/custom/category/category_brands_type'}}
+        {{#unless theme_settings.hide_category_page_heading }}
+            <h2 class="page-heading all-products-title">{{category.name}}</h2>
+            {{{region name="category_below_header"}}}
+        {{/unless}}
+    {{/if}}
+    {{> components/category/sort-box sort=sort}}
+</form>

@@ -1,0 +1,64 @@
+---
+category:
+    shop_by_price: true
+    products:
+        limit: {{theme_settings.categorypage_products_per_page}}
+---
+
+{{inject "categoryProductsPerPage" theme_settings.categorypage_products_per_page}}
+{{inject "categoryId" category.id}}
+{{#partial "head"}}
+    {{#if pagination.category.previous}}
+        <link rel="prev" href="{{pagination.category.previous}}">
+    {{/if}}
+    {{#if pagination.category.next}}
+        <link rel="next" href="{{pagination.category.next}}">
+    {{/if}}
+{{/partial}}
+
+{{#partial "no-container"}}
+    
+    <style>
+        .affiliate-banner {
+            background-image: url({{#if category.image}}{{getImage category.image}}{{/if}});
+            background-repeat: no-repeat;
+            background-position: left 25% top;
+        }
+
+        @media (min-width: 801px) {
+            .affiliate-banner {
+                background-size: cover;
+                background-position: left center;   
+            }
+        }
+
+        @media(min-width: 1261px) {
+            .affiliate-banner {
+                background-position: center;   
+            }
+        }
+    </style>
+
+    <div class="block bk-category affiliate-banner franchise">
+        {{{region name="franchise_banner_image"}}}
+    </div>
+
+    <div class="block block-grey-lt franchise">
+        <div class="container franchise_content1">
+            {{{region name="franchise_content1"}}}
+        </div>
+    </div>
+
+    <div class="page container">
+        <main class="page-content" id="product-listing-container">
+            {{#if category.products}}
+                {{> components/category/product-listing}}
+            {{else}}
+                <p>{{lang 'categories.no_products'}}</p>
+            {{/if}}
+            {{{region name="category_below_content"}}}
+        </main>
+    </div>
+
+{{/partial}}
+{{> layout/base}}

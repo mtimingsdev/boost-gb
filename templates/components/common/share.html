@@ -1,0 +1,67 @@
+{{#if settings.add_this.buttons}}
+    <div class="addthis_toolbox addthis_32x32_style" addthis:url="{{url}}"
+         addthis:title="{{title}}">
+        <ul class="socialLinks">
+            {{#each settings.add_this.buttons}}
+                <li class="socialLinks-item socialLinks-item--{{service}}">
+                    <a class="addthis_button_{{service}} icon icon--{{service}}" {{{annotation}}}>
+                        {{#if service '===' 'facebook'}}
+                            <svg>
+                                <use xlink:href="#icon-facebook"/>
+                            </svg>
+                            <span class="visually-hidden">Share on {{titleize service}}</span>
+                        {{else if service '===' 'email'}}
+                            <svg>
+                                <use xlink:href="#icon-envelope"/>
+                            </svg>
+                            <span class="visually-hidden">Share via {{titleize service}}</span>
+                        {{else if service '===' 'print'}}
+                            <svg>
+                                <use xlink:href="#icon-print"/>
+                            </svg>
+                            <span class="visually-hidden">{{titleize service}} this page</span>
+                        {{else if service '===' 'twitter'}}
+                            <svg>
+                                <use xlink:href="#icon-twitter"/>
+                            </svg>
+                            <span class="visually-hidden">Share on {{titleize service}}</span>
+                        {{else if service '===' 'linkedin'}}
+                            <svg>
+                                <use xlink:href="#icon-linkedin"/>
+                            </svg>
+                            <span class="visually-hidden">Share on {{titleize service}}</span>
+                        {{else if service '===' 'google'}}
+                            <svg>
+                                <use xlink:href="#icon-google"/>
+                            </svg>
+                            <span class="visually-hidden">Share on {{titleize service}}</span>
+                        {{else if service '===' 'pinterest'}}
+                            <svg>
+                                <use xlink:href="#icon-pinterest"/>
+                            </svg>
+                            <span class="visually-hidden">Share on {{titleize service}}</span>
+                        {{/if}}
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+        <script type="text/javascript" defer src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e94ed470ee51e32"></script>
+        <script>  
+            window.addEventListener('DOMContentLoaded', function() {
+                if (typeof(addthis) === "object") {
+                    addthis.toolbox('.addthis_toolbox');
+                }
+            });
+        </script>
+    </div>
+{{/if}}
+{{#if settings.facebook_like_button.enabled}}
+    <iframe 
+        class="facebook{{#if settings.facebook_like_button.verb '===' 'recommend'}}Recommend{{else}}Like{{/if}}Btn" 
+        style="border:none; overflow:hidden; margin: 0; padding: 0; position:absolute" 
+        src="https://www.facebook.com/plugins/like.php?href={{settings.facebook_like_button.href}}&amp;layout=button_count{{#if settings.facebook_like_button.verb '===' 'recommend'}}&amp;action=recommend{{/if}}&amp;colorscheme=light&amp;height=20" 
+        scrolling="no" 
+        frameborder="0" 
+        allowTransparency="true">
+    </iframe>
+{{/if}}

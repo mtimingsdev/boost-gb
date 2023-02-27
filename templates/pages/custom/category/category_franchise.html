@@ -1,0 +1,32 @@
+---
+category:
+    shop_by_price: true
+    products:
+        limit: {{theme_settings.categorypage_products_per_page}}
+---
+
+{{inject "categoryProductsPerPage" theme_settings.categorypage_products_per_page}}
+{{inject "categoryId" category.id}}
+{{#partial "head"}}
+    {{#if pagination.category.previous}}
+        <link rel="prev" href="{{pagination.category.previous}}">
+    {{/if}}
+    {{#if pagination.category.next}}
+        <link rel="next" href="{{pagination.category.next}}">
+    {{/if}}
+{{/partial}}
+
+{{#partial "no-container"}}
+
+    <div class="block bk-category affiliate-banner franchise">
+        {{{region name="franchise_banner_image"}}}
+    </div>
+
+    <div class="block txt-img block-grey-lt franchise">
+        <div class="container franchise_content1">
+            {{{region name="franchise_content1"}}}
+        </div>
+    </div>
+
+{{/partial}}
+{{> layout/base}}

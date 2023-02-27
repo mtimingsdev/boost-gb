@@ -1,0 +1,23 @@
+{{#if categories}}
+    {{#each categories}}
+        {{#if name '===' 'Shop by Products'}}
+            {{#if children}}
+                {{#each children}}
+                    {{#if is_active}}
+                        {{else}}
+                        <div class="block txt-img txt-img-brand">
+                            <div class="container">
+                                <div class="txt-img-img txt-img-img--category" style="background-image: url('{{getImage image}}');"></div>
+                                <div class="txt-img-content">
+                                    <h2 class="txt-img-title">{{name}}</h2>
+                                    <p>{{description}}</p>
+                                    <a href="{{url}}" class="button button--large">Shop {{name}} <i class="icon-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    {{/if}}
+                {{/each}}
+            {{/if}}
+        {{/if}}
+    {{/each}}
+{{/if}}

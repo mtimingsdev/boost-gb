@@ -1,0 +1,38 @@
+.bk-category,
+.bk-page {
+    background-repeat: no-repeat;
+    background-position: right 19% top;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    min-height: 500px;
+    
+    @include breakpoint("medium") {
+        padding-bottom: 48px;
+        min-height: 300px;
+        background-position: center top;
+    }
+
+    .page-heading {
+        margin: 0;    
+    } 
+}
+
+.bk-page {
+    h1 {
+        margin-bottom: spacing("half");
+    }
+}
+
+.banner-content {
+    p {
+        margin-bottom: 0;
+    }
+
+    @include breakpoint("medium") {
+        @include grid-column(6);
+        padding-left: 0;
+        float: none;
+    }
+}

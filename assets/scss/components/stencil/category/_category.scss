@@ -1,0 +1,30 @@
+// =============================================================================
+// CATEGORY (CSS)
+// =============================================================================
+
+
+// Category header
+// -----------------------------------------------------------------------------
+
+.category-header-image {
+    width: 100%;
+}
+
+// Category dark template
+// -----------------------------------------------------------------------------
+
+.bk-category.dark .breadcrumb a {
+    color: #000;
+}
+.bk-category.dark .breadcrumb:before {
+    color: #000;
+}
+.bk-category.dark .breadcrumb.is-active>.breadcrumb-label {
+    color: #000;
+}
+.bk-category.dark .container {
+    color: #000;
+}
+.bk-category.dark  .banner-content h1.page-heading {
+    color: #000;
+}

@@ -1,0 +1,32 @@
+{{#partial "no-container"}}
+
+<div class="block bk-category" style="background-image: url({{#if category.image}}{{getImage category.image}}{{/if}});">
+    <div class="container">
+        {{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
+        <div class="banner-content">
+            {{#unless theme_settings.hide_category_page_heading }}
+                <h1 class="page-heading">{{category.name}}</h1>
+                {{{region name="category_below_header"}}}
+            {{/unless}}
+            {{{category.description}}}
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="block">
+    <div class="container">
+        {{#if products.featured}}
+            {{> components/products/carousel products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
+        {{/if}}
+    </div>
+</div> 
+-->
+<div class="block">
+    {{> components/boost/shop-by-brand title='0'}}      
+    </div>
+</div>
+
+
+{{/partial}}
+{{> layout/base}}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'AvenirLTPro-Black';
+    src: url('../fonts/AvenirLTPro-Black.woff2') format('woff2'), 
+         url('../fonts/AvenirLTPro-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirLTPro-Book';
+    src: url('../fonts/AvenirLTPro-Book.woff2') format('woff2'), 
+         url('../fonts/AvenirLTPro-Book.woff') format('woff');
+}
+
+.all-products-title {
+    @include breakpoint("small") {
+        float: left;
+        margin-bottom: 0;
+    }
+}
+
+.sidebar-title {
+    color: stencilColor("headings-color");
+}

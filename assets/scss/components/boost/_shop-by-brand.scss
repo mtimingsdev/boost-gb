@@ -1,0 +1,54 @@
+.block.bk-shop-by-brand {
+    padding: 24px 0 0 24px;
+}
+
+.bk-shop-by-brand {
+    h2 {
+        text-align: center;
+        
+        @include breakpoint("medium") {
+            text-align: left;
+        }
+    }
+
+    .home-featured-cont {
+        margin-bottom: 0;
+    }
+
+    .home-featured-cont h2 {
+        color: #ffffff;
+    }
+}
+
+.s-by-brand {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        width: 187px;
+    }
+}
+
+.s-by-brand-item {
+    @include grid-column(6);
+    text-align: center;
+
+    @include breakpoint("medium") {
+        @include grid-column(3);
+    }
+}
+
+.s-by-brand-name {
+    text-align: center;
+    font-size: 0.8824rem;
+    font-weight: bold;
+    margin-top: spacing("quarter");
+    position: relative;
+    right: -7px;
+}

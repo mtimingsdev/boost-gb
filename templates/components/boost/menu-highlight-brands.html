@@ -1,0 +1,10 @@
+{{#if (lang 'header.highlights.brands.show') '===' 'true'}}
+  <div class="menu-highlight">
+    <a href="{{lang 'header.highlights.brands.link'}}">
+      <div class="highlight-brand-cont">
+        <img src="{{getImageManagerImage (lang 'header.highlights.brands.image_filename')}}"
+        alt="{{lang 'header.highlights.brands.alt_text'}}" class="highlight-img lazyautosizes lazyloaded" loading="lazy">
+      </div>
+    </a>
+  </div>
+{{/if}}

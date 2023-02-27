@@ -1,0 +1,9 @@
+<ul class="productGrid">
+    {{#each products}}
+        {{#if (first (split (getVar "currentBrand" ) "&")) '===' (first (split brand.name "&"))}}
+            <li class="product">
+                {{>components/products/card settings=../settings theme_settings=../theme_settings customer=../customer event="list" position=(add @index 1)}}
+            </li>
+        {{/if}}
+    {{/each}}
+</ul>

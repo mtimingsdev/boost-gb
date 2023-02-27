@@ -1,0 +1,1296 @@
+{
+    "header": { 
+        "welcome_back": "Welkom terug {Name}",
+        "highlights": {
+            "brands": {
+                "show": "false",
+                "link": "/shop-by-brand",
+                "image_filename": "test-menu-advert-brand.jpg",
+                "alt_text": "Test Advert for Brand Menu"
+            },
+            "products": {
+                "show": "false",
+                "link": "/shop-by-brand",
+                "image_filename": "test-menu-advert-product.jpg",
+                "alt_text": "Test Advert for Brand Menu"
+            }
+        },
+        "usp_blocks": {
+            "item_1": {
+                "icon": "fa-award",
+                "text": "Offiele verkoper van gaming tegoedkaarten"
+            },
+            "item_2": {
+                "icon": "fa-lock",
+                "text": "Veilig en betrouwbaar afrekenen"
+            },
+            "item_3": {
+                "icon": "fa-bolt",
+                "text": "Direct geleverd"
+            }
+        }
+    }, 
+    "footer": {
+        "copyright": "BOOST Gaming 2021",
+        "social_title": "Volg ons",
+        "first_menu_title": "Klantenservice",
+        "second_menu_title": "Over Boost",
+        "first_menu": {
+            "item_1": {
+                "show": "true",
+                "link": "/contact-us/",
+                "text": "Neem contact met ons op"
+            },
+            "item_2": {
+                "show": "true",
+                "link": "/faqs/",
+                "text": "FAQs"
+            },
+            "item_3": {
+                "show": "true",
+                "link": "/returns-refunds/",
+                "text": "Retouneren"
+            },
+            "item_4": {
+                "show": "true",
+                "link": "/sitemap.php",
+                "text": "Sitemap"
+            },
+            "item_5": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "item_6": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "item_7": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "item_8": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            }
+        },
+        "second_menu": {
+            "item_1": {
+                "show": "false",
+                "link": "/terms-of-use/",
+                "text": "Voorwaarden"
+            },
+            "item_2": {
+                "show": "true",
+                "link": "/terms-conditions/",
+                "text": "Algemene voorwaarden"
+            },
+            "item_3": {
+                "show": "true",
+                "link": "https://blackhawknetwork.com/nl-nl/privacyverklaring",
+                "text": "Privacy Beleid"
+            },
+            "item_4": {
+                "show": "true",
+                "link": "/cookie-policy",
+                "text": "Cookiestatement"
+            },
+            "item_5": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "item_6": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "item_7": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "item_8": {
+                "show": "false",
+                "link": "/",
+                "text": "Not used"
+            },
+            "cookie_settings": {
+                "show": "true",
+                "text": "Cookie instellingen"
+            }
+        },
+        "payment_header": "Betaalmethode",
+        "secured_by_title": "Checkout Secured by"
+    },
+    "home": {
+        "heading": "Home",
+        "featured_products": {
+            "title": "Meest populaire producten",
+            "button_text": "Bekijk alle producten",
+            "button_link": "/categories/shop-by-products.html"
+        }
+    },
+    "blog": {
+        "recent_posts": "Recent Posts",
+        "label": "Blog",
+        "posted_by": "Posted by {name}",
+        "read_more": "read more"
+    },
+    "unavailable": {
+        "hibernation_title":   "We komen erop terug",
+        "hibernation_message":   "Bedankt voor het bezoeken. Onze winkel is momenteel niet bereikbaar. Onze excuses voor het ongemak",
+        "maintenance_title":   "Wegens onderhoud offline",
+        "maintenance_message":   "Deze winkel is momenteel niet beschikbaar wegens onderhoud. Het zou binnenkort weer beschikbaar moeten zijn. Onze excuses voor het ongemak."
+    }, 
+    "brands":   {
+        "no_products":   "Er zijn geen producten vermeld onder dit merk"
+    }, 
+    "categories":   {
+        "no_products":   "Er zijn geen producten vindbaar in de onderstaande categorie."
+    }, 
+    "checkout":   {
+        "title":   "winkelmandje",
+        "footer_contact": "Als je problemen ondervind bij het afronden van je bestelling, neem dan contact op met ons klantenservice team via het formulier op de <a href=\"/contact-us\">'Contact'</a> pagina.<br><br><address>Blackhawk Network (Europe) Limited<br>Westside, London Road<br>Hemel Hempstead<br>Hertfordshire<br>HP3 9TD<br><br><a style=\"color:#FFF\" href=\"https://blackhawknetwork.com\"><strong>https://blackhawknetwork.com</strong></a></address>"
+    }, 
+    "cart":   {
+        "title": "Uw winkelmandje",
+        "continue_shopping":   "Klik hier, om verder te gaan",
+        "items":   "{NUM, Plural, = 0 {(0 Item)} ein {(# Element)} anders {(#Items)}}",
+        "checkout":   {
+            "address":   {
+                "multiple":   "Veder gaat naar winkelmandje met meerdere adressen",
+                "or":   "oder"
+            }, 
+            "button":   "Winkelmandje",
+            "empty_cart":   "Je winkelmandje is leeg",
+            "title":   "Klik hier om verder te gaan naar je bestelling",
+            "item":   "Item",
+            "price":   "Prijs",
+            "quantity":   "Kwantiteit",
+            "total":   "Totaal",
+            "change":   "Subtotaal",
+            "subtotal":   "Subtotaal (incl. BTW)",
+            "enter_code":   "Promotie code",
+            "gift_wrapping":   "Cadeauverpakking",
+            "shipping":   "Verzending",
+            "grand_total":   "Totaal",
+            "select":   "Kies",
+            "update":   "Update verzendkosten"
+        }, 
+        "preview":  {
+            "checkout_now":  "Bestelling",
+            "checkout_multiple":   "of voeg meerdere adressen toe aan je bestelling",
+            "view_cart":   "Zie Bestelling"
+        }, 
+        "label":   " Mijn winkelmandje ({kwantiteit, meerdere, eeen {# item} ander{#iteml}})",
+        "is_empty":   "Jouw winkelmandje Is leeg",
+	"invalid_entry_message": "[ENTRY] is not a valid entry",
+        "coupon_code":   "promotiecode",
+        "discount":   "korting",
+        "gift_certificate":   "Cadeaukaart",
+        "remove_file":   "verwijder dit bestand",
+        "freeshipping":   "Gratis verzending",
+        "reconfigure_product":   "Configuratie '{name}'",
+        "shipping_peritem":   "Verzending per item",
+	    "remove_item": "Remove {name} from cart",
+        "confirm_delete":   "Weet je zeker dat je dit item wilt verwijderen?",
+        "coupons":   {
+            "empty_error":   "Voeg je promotiecode toe.",
+            "cancel":   "verwijder",
+            "add_code":   "Voeg code toe",
+            "add_coupon":   "Heb jij een promotiecode?",
+            "button":   "Voeg toe",
+            "coupon_code":   "Voeg je promotiecode toe",
+            "code_label":   "Promotiecode ({code})",
+            "remove":   "Verwijderen",
+            "invalid_code": "De kortingscode die je ingevuld hebt kan niet worden toegepast op de items uit je bestelling."
+        }, 
+        "gift_certificates":   {
+            "add_cert_code":   "Voeg Cadeaukaart toe",
+            "gift_certificate":   "Cadeaukaart",
+            "code_label":   "Cadeaukaart code({Code})",
+            "cert_code":   "Voeg je cadeaukaart code toe",
+            "empty_error":   "Voeg de geldige cadeaukaart code toe",
+            "remove":   "Verwijderen"
+        }, 
+        "shipping_estimator":  {
+            "add_info": "voeg informatie toe",
+            "select_a_country":   "Land",
+            "select_a_state":   "Provincie",
+            "estimate_shipping":   "Inschatting verzending",
+            "suburb_city":   "Stad",
+            "zip_postal_code":   "Postcode",
+            "free_shipping":   "Gratis verzending",
+            "hide_ups_rates":   "Verberg UPS toeslag",
+            "show_ups_rates":   "Toon UPS toeslag"
+        }, 
+        "gift_wrapping":   {
+            "title":   "Cadeaupapier",
+            "add":   "Toevoegen",
+            "change":   "Veranderen",
+            "remove":   "Verwijderen",
+            "choose_how":   "Kies hoe je jouw cadeau verpakt wil hebben.",
+            "option_same":   "Ik wil graag dit item hetzelfde verpakt hebben als de rest ",
+            "item_single":   "Cadeauverpakking - {Name}",
+            "item_multiple":   "Item {index} - {name}",
+            "option_different":   "Ik wil graag elke item apart verpakt zien worden",
+            "choose_type":   "Kies cadeauverpakking",
+            "gift_message":   "Cadeau Bericht",
+            "remove_confirm":   "Weet je zeker dat je de cadeauverpakking voor dit items wil verwijderen?",
+            "preview":   "Preview"
+        }, 
+        "added_to_cart":   {
+            "what_next":   "Een item was toegevoegd aan je winkelmandje",
+            "your_cart_contains":   "Je winkelmandje bevat {1 item} ander {# item}}",
+            "proceed_to_checkout":   "Koop nu",
+            "order_subtotal":   "Bestel  subtotaal",
+            "continue_shopping":   "Voeg meer boosts toe",
+            "view_or_edit_cart":   "Bekijk of edit je winkelmandje",
+            "you_might_also_like":   "Ook interessant voor jou"
+        } 
+    }, 
+    "common":  {
+        "store_credit": "Jij hebt <strong> {store_credit} </ strong> tegoed. Om het te gebruiken, plaats jij eenvoudig je bestelling en kies je het tegoed als uw betaalmethode.",
+        "store_credit_overview":  "{credit} tegoed",
+        "generic_error":  "Oeps! Iets ging fout.",
+        "currency":  "Kies munteenheid{Code}",
+        "newsletter_signup":  "Meld je aan voor de nieuwsbrief",
+        "form_submit":  "Verzend",
+        "no_preference":  "Geen voorkeur",
+        "other_details":  "Andere details",
+        "required":  "Benodigd",
+        "email_address":  "Email adres",
+        "edit":  "edit",
+        "not_applicable":  "Niet beschikbaar",
+        "no":  "Nee",
+        "yes":  "Ja",
+        "from":  "Van",
+        "to":  "Naar",
+        "cancel":  "verwijder",
+        "close":  "Afsluiten",
+        "or":  "of",
+	"and": "and",
+        "compare":  "Vergelijken",
+	"change": "Change",
+        "sign_up":  "Registreren",
+        "login":  "Aanmelden",
+        "logout":  "Uitloggen",
+        "account":  "Account",
+        "cart":  "Winkelmandje",
+        "search":  "Zoeken",
+        "gift_cert":  "Cadeaukaart",
+        "save":  "Bewaren",
+        "share":  "Delen",
+        "delete":  "Verwijderen",
+        "public":  "Publiek",
+        "private":  "Prive",
+        "view_all":  "Alles zien",
+        "all":  "Alles",
+        "paginator":  {
+            "page_of":  "Pagina{huidig} van {total}"
+        }, 
+        "prices_are_in":  "Prijs is in  {CODE}",
+        "previous":  "Vorige",
+        "next":  "Volgende",
+        "sorter":  {
+            "relevance":  "Relevant",
+            "sort_by":  "Sorteer op",
+            "featured":  "Uitgelicht",
+            "top_sellers":  "Populair",
+            "newest":  "Nieuw",
+            "alpha_asc":  " Van A tot  Z",
+            "alpha_desc":  "Van Z tot A",
+            "reviews":  "Per review",
+            "price_asc":  "Prijs oplopend",
+            "price_desc":  "Prijs aflopend"
+        }, 
+        "loading":  "Laden",
+        "month":  "Maand",
+        "day":  "Dag",
+        "year":  "Jaar",
+        "short_months":  {
+            "1":  "Jan",
+            "2":  "Feb",
+            "3":  "Maart",
+            "4":  "Apr",
+            "5":  "Mei",
+            "6":  "Jun",
+            "7":  "Jul",
+            "8":  "Aug",
+            "9":  "Sep",
+            "10":  "Okt",
+            "11":  "Nov",
+            "12":  "Dec"
+        } 
+    }, 
+    "compare":  {
+        "button": "Producten vergelijken",
+        "header":  "Vergelijken van  {Produkten, Plural, een{# Produkt} andere {# Produkten}}",
+        "remove":  "Verwijderen",
+        "no_remove":  "Om te vergelijken heb je twee producten nodig.",
+        "add_to_cart":  "Voeg toe aan winkelmandje"
+    }, 
+    "category":  {
+        "label":  "categorieën ",
+        "shop_by_price":  "Prijsklasse",
+	"shop_by_price_range_aria": "Price range from {from} to {to}",
+        "filter_price_range": "Price range:",
+        "add_cart_announcement": "The item has been added",
+        "reset":  "Reset",
+	"filter_reset_announcement": "The filter has been reset",
+        "filter_select_announcement": "The filter has been applied",
+        "menu_label": {
+            "brand": "Shop alle merken",
+            "products": "Shop all products"
+        },
+        "view_all": {
+            "brand": "Shop alle merken",
+            "games": "Shop all games"
+        }
+    }, 
+    "brand":  {
+        "label":  "Merken",
+        "view_brands":  "Alle merken",
+        "shop_by_brand": "Zoek per merk",
+        "popular_brands": "Populaire merken"
+    }, 
+    "gift_certificate":  {
+        "heading":  "Cadeau verpakkingen",
+        "purchase":  {
+            "heading":  "Koop cadeau verpakking"
+        }, 
+        "redeem":  {
+            "heading":  "Verzilver Cadeaukaart",
+            "intro":  "Om een cadeaukaart te verzilveren bij {store_name}, moet je de volgende stappen volgen .",
+            "item1":  "Je hebt je unieke cadeaukaart code nodig, het is meegestuurd in de bijlage in de mail. Het ziet er zo ongeveer uit Z50-Y6K-COS-402",
+            "item2":  "Klik door webwinkel heen en voeg items toe aan je winkelmandje",
+            "item3":  "Klik op <a href=\"{cart_url}\"> het winkelmandje</a>, om vervolgens naar je bestelling te kijken.",
+            "item4":  "Vul je cadeaukaart code in door deze in te voeren in het veld 'Verzilver je cadeau certificaat' en klik op 'Go' ."
+        }, 
+        "balance":  {
+            "heading":  "Controleer cadeaukaart saldo",
+            "intro":  "Je kan je saldo checken van je cadeaukaart door de code in het onderstaande veld in te voeren"
+        } 
+    }, 
+    "create_account":  {
+        "heading":  "Nieuwe account",
+        "created":  {
+            "heading":  "Je account is gemaakt",
+            "intro":  "Bedankt voor het aanmaken van de accoutn bij {store_name}. Je account details zijn gemaild naar <strong>{email}</strong>",
+            "continue":  "Doorgaan met winkelen"
+        }, 
+	"recaptcha_title": "Google recaptcha"
+    }, 
+    "login":  {
+        "heading":  "Aanmelden",
+        "field_email":  "Email adres",
+        "field_password":  "Wachtwoord",
+        "submit_value":  "Aanmelden",
+        "forgot_password":  "Wachtwoord vergeten?",
+        "new_customer":  {
+            "heading":  "Nieuwe klant?",
+            "intro":  "Maak eerst een account aan om vervolgens:",
+            "fact1":  "Snelle bestellen",
+            "fact2":  "Bewaar meerdere adressen ",
+            "fact3":  "Bekijk je bestel geschiedenis",
+            "fact4":  "Volg je bestelling",
+            "fact5":  "Voeg items toe aan je verlanglijstje",
+            "create_account":  "Maak je account aan"
+        } 
+    }, 
+    "reset_password":  {
+        "heading":  "Wachtwoord resetten",
+        "intro":"De laatste producten feed bevat de laatste {limit} producten van  {store} die worden toegevoegd, Typ je email in om een nieuw wachtwoord aan te vragen. Een email wordt verzonden aan het onderstaande adres met een link om je email te verifieren."
+    }, 
+    "account":  {
+        "breadcrumb":  "Mijn account",
+        "nav":  {
+            "overview":  "Overzicht",
+            "orders":  "Bestellingen",
+            "returns":  "Retour",
+            "messages":  "Berichten ({num_new_messages})",
+            "wishlists":  "Verlanglijst({num_wishlists})",
+            "recently_viewed":  "Recent bekeken",
+            "settings":  "Account instellingen",
+            "addresses":  "Adressen",
+            "payment_methods":  "Betaal methodes"
+        }, 
+        "mobile_nav":  {
+            "messages":  "Berichten",
+            "wishlists":  "Verlanglijstjes"
+        }, 
+        "addresses":  {
+            "heading":  "Adressen",
+            "add_heading":  "Toevoegen nieuwe adressen",
+            "primary":  "Eerste",
+            "phone":  "Telefoon",
+            "new_address":  "Nieuw adres",
+            "no_addresses":  "Op dit moment heb je geen adres toegevoegd aan  je account."
+        }, 
+        "messages":  {
+            "heading":  "Berichten ",
+            "customer_said":  "Jij zegt:",
+            "merchant_said":  "{store_name} zegt:"
+        }, 
+        "orders":  {
+            "heading":  "Bestellingen",
+            "none":  "Jij hebt geen bestellingen bij ons geplaatst. Wanneer je een bestelling bij ons plaatst wordt het weergegeven op deze pagina",
+            "return":  {
+                "already_returned":  "Deze bestelling bevat geen producten die kunnen worden geretourneerd. Heb je al alle items in deze order geretourneerd?",
+                "back_button":  "Ga terug",
+                "order_item":  "item",
+                "item_price":  "Prijs",
+                "quantity":  "aantal retours",
+                "why":  "Waarom stuur je deze items retour?",
+                "reason":  "Reden voor retour",
+                "action":  "Retour vervolgstap",
+                "comments":  "Commentaar"
+            }, 
+            "gift_wrapping": "Cadeauverpakking",
+            "refunded":  "(Terugbetaald)",
+            "refunded_quantity":   "({aantal} teruggestort)",
+            "return_item":   "Retour",
+            "return_items":   "Retour items",
+            "order_placed":   "Bestelling geplaatst",
+            "last_update":   "Laatste update",
+            "list":   {
+                "order_number":   "Bestelnummer}",
+                "product_details":   "{num_products, Plural, een {1 Produkt} ander {# Produkte}} totaalKosten}"
+            }, 
+            "details":   {
+                "heading":   "Bestelling}",
+                "order_contents":   "Bestelling Bestaat Uit",
+                "ship_to":   "Verzenden naar",
+                "ship_to_multi":   "Item verzonden naar {Straat}, {Stad}, {Provincie}, {Postcode}, {Land} ",
+                "ship_to_multi_text":   "Je bestelling wordt naar meerdere addressen gestuurd",
+                "bill_to":   "Factuur naar",
+                "how_to_pay":   "Hier kan je zien hoe je kan bestellen",
+                "order_details":   "Besteldetails",
+                "order_total":   "Totaal van bestelling",
+                "order_status":   "Bestelstatus",
+                "payment_date":   "Bestel datum",
+                "payment_method":   "Betaalmethode",
+                "comments":   "Commentaar bestelling",
+                "download_items":   "Gedownloade items",
+                "card_ending":   "eindige {card}",
+                "shipments":   {
+                    "date":   "Datum verzonden",
+                    "method":   "Verzend methode",
+                    "link":   "Tracking Link",
+                    "header":   "Verzendings details"
+                }, 
+                "actions":   "Vervolgstappen",
+                "reorder":   "Opnieuw bestellen",
+                "return":   "Retour",
+                "print_invoice":   "Print factuur"
+            }, 
+            "downloads":   {
+                "heading":   "Bestelling{Nummer} Downloads",
+                "download_files_below":   "Hieronder kan je de bestanden downloaden",
+                "expired_content":   "Bestand is verlopen",
+                "days_remaining":   "{nummer, meervoud, een {1 Tag} andere {# Tage}}",
+                "downloads_remaining":   "{number, meervoud, een {1 download} andere {# downloads}} overgebleven",
+                "days_or_downloads":   "of {number} downloads",
+                "remaining":   "overgebleven"
+            } 
+        }, 
+        "payment_methods": {
+            "heading":   "Betaal methoden ",
+            "payment_method":   "Betaal methoden",
+            "billing_address":   "Adres voor factuur",
+            "card_ending_in":   "eindigd op {last_four}",
+            "card_expiry":   "{Maand Jaar}",
+            "new_payment_method":   "Voeg betaalmethode toe",
+            "no_methods":   "Op dit moment heb je geen betaalmethode gekozen ",
+            "name_on_card":   "Naam op de kaart",
+            "credit_card_number":   "Creditcardnummer",
+            "expiration":   "Verloopdatum",
+            "cvv":   "CVV",
+            "card_types":   {
+                "american_express": "American Express",
+                "credit_card":   "Creditcard",
+                "dankort":  "Dankort",
+                "diners":  "Diners Club",
+                "discover":  "Discover",
+                "jcb":  "JCB",
+                "maestro":   "Maestro",
+                "mastercard":   "MasterCard",
+                "visa":   "Visa"
+            }, 
+            "paypal": "PayPal",
+            "billing_address_labels":   {
+                "address_line_1":   "Adres 1",
+                "address_line_2":   "Adres 2",
+                "suburb_city":   "Stad",
+                "state_province":   "Provincie",
+                "choose_state":   "Kies provincie",
+                "country":   "Land",
+                "choose_country":   "Kies land",
+                "zip_postcode":   "Postcode"
+            } 
+        }, 
+        "returns": {
+            "heading":   "Retouren",
+            "instructions":   "Retouri nstructies",
+            "error_no_qty":   "Kies een of meerdere items om te retourneren.",
+            "none":   "Jij hebt geen retour gekozen. Als je dat wel hebt gedaan wordt zichtbaar op deze pagina",
+            "new_return":   "Nieuwe retour",
+            "from_order":   "Terugkerende bestellingen #{id} ",
+            "date_requested":   "Retour aanvraag",
+            "successful_heading":   "Retour teruggestuurd",
+            "successful":   "Je retouraanvraag is succesvol doorgegeven. We zullen zo spoedig mogelijk contact met je opnemen",
+            "return":   "Terug naar bestelling",
+            "last_update":   "Latste update",
+            "reason":   "Reden voor retour",
+            "action":   "Vervolg stap retour",
+            "comments":   "Je commentaar",
+            "list":   {
+                "return_number":   "Return # {id}",
+                "product_details":   "Retour {num_products}"
+            }, 
+            "status": {
+                "pending":   "In behandeling",
+                "received":   "Aangekomen",
+                "authorized":   "Geautoriseerd",
+                "repaired":   "Gerepareerd",
+                "refunded":   "Teruggestort",
+                "rejected":   "Afgewezen",
+                "cancelled":   "Verwijderd"
+            } 
+        }, 
+        "settings": {
+            "heading":  "Account instellingen",
+            "first_name":  "Voornaam",
+            "last_name":  "Achternaam",
+            "email":  "Email adres",
+            "company":  "Bedrijf",
+            "phone":  "Telefoonnummer",
+            "old_password":  "Oud wachtwoord",
+            "new_password":  "Nieuw wachtwoord",
+            "confirm_password":  "Wachtwoord bevestigen",
+            "update_details":  "update gegevens"
+        }, 
+        "recent_items":  {
+            "heading":   "Recent bekeken",
+            "no_items":  "De items die je recentelijk hebt gezien zullen onderstaand worden weergegeven."
+        }, 
+        "wishlists":  {
+            "heading":"Verlanglijst",
+            "tag_line":  "Vul het formulier in om een nieuwe verlanglijst te maken.  Klik op de \"Create Wish List\" knop wanneer je klaar bent.",
+            "new":  "nieuwe verlangllijst",
+            "you_have_none":  "Je hebt geen verlanlijst, klik hier om er een te maken.",
+            "empty_wishlist":  "Je verlangslijst is leeg. Wanneer je een nieuw item aan je verlanglijst wil toevoegen word het hier zichtbaar.",
+            "num_items":  "Artikel",
+            "add_item":  "Voeg toe aan verlanglijst ",
+            "remove_item":  "Verwijder item",
+            "name":  "Verlanglijst naam",
+            "shared":  "Gedeeld",
+            "action":  "Actie",
+            "add":  "nieuwe verlanglijst maken",
+            "delete_all":  "Alles deleten",
+            "edit":  "Verlanglijst aanpassen",
+            "view_heading":  "Verlanglijst{Name}",
+            "share_intro":  "Deel deze verlanglijst met vrienden",
+            "num_products":  "{num_products, Plural, een {1 Product} andere {# Product}}",
+            "create":  "Maak een verlanglijst",
+            "save":  "Bewaar verlanglijst",
+            "delete_alert":  "Weet je zeker dat je jouw verlanglijst wilt verwijderen? Deze actie kan niet worden terug gedraaid .",
+            "create_new":  "Maak nieuwe verlanglijst",
+            "add_to_default":  "Voeg aan mijn verlanglijst toe",
+            "enter_wishlist_name_error": "You must enter a wishlist name."
+        } 
+    }, 
+    "page":  {
+        "label":  "Snelkoppeling",
+        "rss":  {
+            "intro":  "RSS-feeds worden gebruikt voor het syndiceren van regelmatig veranderende inhoud op een website, inclusief deze. U kunt een RSS-feed openen met behulp van een RSS-lezer en deze gebruiken om te zien of er nieuwe inhoud op deze site is of u kunt instellen een server-side script op om de feed te ontleden en op uw website weer te geven.",
+            "heading":  "RSS Syndication",
+            "blog":  {
+                "heading":  "Recente blog posts",
+                "intro":  "De recente posts feed bevat de laatste blog posts op {store}.",
+                "rss": "Nieuwste{limit} Blog Posts (RSS)",
+                "rss_atom":  "Nieuwste {limit} Blog Posts (Atom)"
+            }, 
+            "products": {
+                "new":  {
+                    "heading":  "Nieuwe producten",
+                    "intro":  "De laatste producten feed bevat de laatste {limit} producten van  {store} die worden toegevoegd",
+                    "rss":  "Nieuwste{limit} Producten (RSS)",
+                    "rss_atom":  "Nieuwste{limit}  Producten (Atom)"
+                }, 
+                "popular":  {
+                    "heading":  "Populaire producten",
+                    "intro":  "De populaire producten feed bevat {limit} de meeste populaire producten van {store} met de hoogste waarding van gebruikers .",
+                    "rss":  "Neueste {limit} Populaire producten(RSS)",
+                    "rss_atom":  "Nieuwste {limit} populaire producten(Atom)"
+                }, 
+                "featured":  {
+                    "heading":  "Uitgelichte producten",
+                    "intro":  "Deze uitgelichte producten betvatten een {limit} met de nieuwste producten van {store}.",
+                    "rss":  "Nieuwste{limit} uitgelichte producten(RSS)",
+                    "rss_atom":  "Nieuwste  {limit} uitgelichten producten (Atom)"
+                } 
+            }, 
+            "search":  {
+                "heading":  "Zoek producten",
+                "intro1":  "Met productzoekfeeds kunt u uw aangepaste productzoekopdrachten opslaan als syndicatiefeed die altijd wordt bijgewerkt wanneer er nieuwe resultaten zijn.",
+                "intro2":  "Om een ​​productzoekfeed te maken, voert u een standaardzoekopdracht uit op {store} en klikt u onderaan de pagina op een van de syndicatie-opties."
+            } 
+        } 
+    }, 
+    "forms":  {
+        "range":  "Je moet cijfers invoeren tussen {limitTo} en{limitFrom} ",
+        "contact_us":  {
+            "full_name":  "Volledige naam",
+            "email":  "Email adres",
+            "company":  "Bedrijf",
+            "phone":  "Telefoonnummer",
+            "order":  "Bestelnummer",
+            "rma":  "RMA-Nummer",
+            "question":  "Opmerkingen of vragen",
+            "submit":  "Formulier sturen",
+            "successful":  "We hebben uw terugkoppeling ontvangen en we zullen spoedig reageren. <a href=\"{shopPath}\"> Ga door naar </a>."
+        }, 
+        "create_account":  {
+            "submit_value":  "Account aanmaken"
+        }, 
+        "new_password":  {
+            "heading":  "Wachtwoord veranderen",
+            "password":  "Nieuw wachtwoord",
+            "password2":  "Wachtwoord bevestigen",
+            "submit_value":  "Ga door"
+        }, 
+        "address":  {
+            "add":  {
+                "heading":  "Nieuw adres toevoegen",
+                "description":  "Gebruik het onderstaande formulier om je verzend gegevens  te veranderen. Klik op de bewaar adres knop als je klaar bent."
+            }, 
+            "edit":  {
+                "heading":  "Update adres"
+            }, 
+            "confirm_delete":  "Weet je zeker dat je je adres wilt veranderen?",
+            "submit_value":  "Bewaar adres" 
+        }, 
+        "payment_methods":  {
+            "add":  {
+                "heading":  "Voeg betaalmethode toe"
+            }, 
+            "edit":  {
+                "heading":  "Update betaalmethode"
+            }, 
+            "confirm_delete":  "Weet je zeker dat je deze betaalmethode wilt verwijderen?",
+            "submit_value":  "Bewaar betaalmethoden",
+            "first_name":  "Voornaam",
+            "last_name":  "Achternaam",
+            "company":  "Bedrijfsnaam",
+            "phone":  "Telefoonnummer",
+            "address1":  "Adres 1",
+            "address2":  "Adres 2",
+            "city":  "Stad",
+            "country":  "Land",
+            "state":  "Provincie",
+            "postal_code":  "Postcode",
+            "choose_country":  "Kies je land",
+            "default_instrument":  "Standaard betaalmethode"
+        }, 
+        "gift_certificate": {
+            "purchase":  {
+                "to_name":  "Naam van ontvangen",
+                "to_email":  "Email van ontvanger",
+                "from_name":  "Je naam",
+                "from_email":  "Jouw Email",
+                "message":  "Optioneel bericht",
+                "amount":  "Bedrag",
+                "theme":  "Cadeaukaart thema",
+                "custom_range":  "(Waarde moet tussen {min} en{max} liggen)",
+                "agree":  "Ik begrijp dat cadeaukaarten niet langer geldig zijn na  {dagen, meerdere, een{1 dag} andere {# dagen}} ",
+                "agree2":  "Ik begrijp dat cadeaukaarten niet retouneerbaar zijn",
+                "preview":  "Preview",
+                "preview_error":  "Er was een probleem met het laden. Probeer het later nog eens",
+                "submit_value":  "Voeg cadeau certificaat toe aan winkelmandje"
+            }, 
+            "balance":  {
+                "code": "cadeaukaart code",
+                "submit_value":  "Saldo check"
+            } 
+        }, 
+        "inbox":  {
+            "order":  "Bestelling",
+            "order_display":  "Bestelling {id} - Besteld op {Datum} voor {total}",
+            "subject":  "Onderwerp",
+            "message":  "Bericht",
+            "submit_value":  "Stuur bericht",
+            "send_message":  "Stuur mij een bericht",
+            "clear_value":  "Leeg",
+            "no_orders":  "Als je eenmaal een bestelling hebt geplaatst krijg je volledige toegang om bericht te versturen van deze pagina."
+        }, 
+        "search":  {
+            "query":  "zoekwoord",
+            "show":  "Laat zoekveld zien",
+            "hide":  "Verberg zoekveld",
+            "title":  "Geavanceerd zoeken",
+            "price_range":  "Prijsklasse",
+            "by_price":  "Zoek op prijs",
+            "by_setting":  "Zoek via instelling",
+            "search":  "Zoek",
+            "free_shipping":  {
+                "title":  "Gratis verzenden",
+                "free":  "Alleen gratis verzending",
+                "paid":  "Alleen betaald verzenden"
+            }, 
+            "featured_products":  {
+                "title":  "Uitgelichte producten",
+                "enabled":  "Alleen uitgelichte producten",
+                "disabled":  "Alleen niet-uitgelichte producten"
+            }, 
+            "categories":  "Categorieen",
+            "did_you_mean":  "Bedoel je:",
+            "your_search_for":  "JIj zoekt",
+            "no_match":  "dit komt niet overeen met een product of andere informatie.",
+            "suggestions":  {
+                "title":  "Suggestie",
+                "line1":  "Zorg ervoor dat alle woorden correct gespeld zijn.",
+                "line2":  "Probeer verschillende zoekwoorden.",
+                "line3":  "Probeer meer generieke zoekwoorden."
+            }, 
+            "refine":  "Maak je zoekopdracht specifiek",
+            "brand":  "Merken",
+            "searchsubs":  "Automatisch zoekopdrachten met subcategorieën"
+        }, 
+        "wishlist": {
+            "name":  "Naam verlanglijst",
+            "public":  "deel verlanglijst?"
+        }, 
+        "validate":  {
+            "account":  {
+                "edit":  {
+                    "password":  "Je moet je huidige wachtwoord invoeren.",
+                    "first_name":  "Vul je voornaam in.",
+                    "last_name":  "Vul je achternaam in.",
+                    "phone":  "Vul je telefoonnummer in."
+                }, 
+                "reorder":  {
+                    "select_item":  "Kies een of meerder items om opnieuw te bestellen."
+                }, 
+                "inbox":  {
+                    "order":  "Je moet een bestelling plaatsen.",
+                    "subject":  "Je moet een onderwerp invoeren.",
+                    "message":  "Je moet een bericht invoeren."
+                } 
+            }, 
+            "common":  {
+                "name":  "Je moet je naam invoeren.",
+                "password":  "Voer je wachtwoord in.",
+                "password_match":  "Je wachtwoord is niet geldig.",
+                "email_address":  "Kies een geldig email adres, zoals  user@example.com.",
+                "valid_email":  "Je moet een geldige email invoeren."
+            }, 
+            "contact":  {
+                "email_address":  "Gebruik een geldig email adres zoals  user@example.com.",
+                "question":  "Je moet je vraag invoeren."
+            }, 
+            "gift":  {
+                "to_name":  "Je moet geldige afzender invoeren.",
+                "to_email":  "Je moet een geldige afzender email invoeren.",
+                "from_name":  "Je moet je naam invoeren.",
+                "from_email":  "Je moet een geldige mail invoeren.",
+                "cert_theme":  "Je moet een geldig cadeaukaart thema kiezen.",
+                "agree_terms":  "Je moet akkoord gaan met deze voorwaarden.",
+                "amount":  "Je moet een cadeaukaart bedrag invoeren."
+            }, 
+            "payment_method":  {
+                "credit_card_number":  "Je moet een geldig credit card nummer invoeren.",
+                "expiration":  "Je moet een geldige afloopdatum invoeren.",
+                "name_on_card":  "Je moet een naam invoeren.",
+                "cvv":  "Je moet een geldige CVV nummer invoeren."
+            }, 
+            "reviews":  {
+                "rating":  "De beoordeling kan niet leeg blijven.",
+                "title":  "Het beoordelingsveld kan niet leeg blijven.",
+                "comment":  "Het veld waar de opmerkingen in staan kan niet leeg blijven"
+            } 
+        } 
+    }, 
+    "products":  {
+        "title": "Products",
+        "current_stock":  "Huidige voorraad",
+        "quantity":  "Aantal",
+   	"change_product_options": "Change options for {name}",
+        "quantity_decrease":  "Aantal verminderen",
+        "quantity_increase":  "Aantal vergroten",
+	"quantity_error_message":"The quantity should contain only numbers",
+        "purchase_units":  "{Menge, Plural, = 0 {0 units} een {# units} ander {# eenheid}}",
+        "max_purchase_quantity":  "Maximaale aankoopwaarde",
+        "min_purchase_quantity":  "Minimum aankoopwaarde",
+        "related_products":  "Verwante producten",
+        "top":  "Meest populaire producten",
+        "similar_by_views":  "Klanten hebben ook gezien",
+        "featured":  "Uitgelichte producten",
+        "file_option_set":  "Huidig<a href=\"{url}\" target=\"_blank\"> {name} </a>",
+        "new":  "Nieuwe producten",
+        "warranty":  "Garantie informatie",
+        "reviews":  {
+            "hide":  "Beoordeling verbergen",
+            "new":  "Schrijf een beoordeling",
+            "show":  "Laat beoordeling zien",
+            "header":  "{total, plural, = 0 {0 Beoordeling} een {# Beoordeling} andere {# Beoordeling}}",
+            "link_to_review":  "({total, plural, = 0 {Geen beoordeling op het moment} eine {# Beoordeling} andere{# Beoordeling}})",
+            "post_on_by":  "Gepost door {name} am {date}",
+            "rating_label":  "Beoordeling",
+            "select_rating":  "Kies beoordeling",
+            "anonymous_poster":  "Onbekend",
+            "rating":  {
+                "1":  "1 Ster(Slechtst)",
+                "2":  "2 Sterren",
+                "3":  "3 Sterren(Gemiddeld)",
+                "4":  "4 Sterren",
+                "5":  "5 Sterren(Beste)"
+            }, 
+            "write_a_review":  "Schrijf een beoordeling",
+            "form_write":  {
+                "name":  "Name",
+                "email":  "Email",
+                "subject":  "Review onderwerp",
+                "comments":  "Opmerkingen",
+                "submit_value":  "Verstuur beoordeling"
+            } 
+        }, 
+        "videos":  {
+            "header":  "Videos",
+            "hide":  "Videos verbergen",
+            "show":  "Laat videos zien"
+        }, 
+        "add_to_cart":  "Voeg toe aan winkelmandje",
+        "view":  "Bekijk",
+        "adding_to_cart":  "Toevoegen ...",
+        "options":  "Opties",
+        "none":  "Geen",
+        "sku":  "SKU",
+        "upc":  "UPC",
+        "condition":  "Conditie",
+        "availability":  "Beschikbaarheid",
+        "shipping":  "Verzenden",
+        "shipping_fixed":  "{Bedrag} (Vaste verzendkosten)",
+        "shipping_free":  "Gratis verzending",
+        "shipping_calculated":  "Berekend in winkelmandje",
+        "sold_out":  "Uitverkocht",
+        "pre_order":  "Pre-order nu ",
+        "choose_options":  "Kies opties",
+        "quick_view":  "Snel bekijken",
+        "compare":  "Vergelijken",
+        "max_filesize":  "Maximale bestand grote",
+        "filetypes":  "bestand type is ",
+        "choose_an_option":  "Kies een optie",
+        "select_one":  "Kies een",
+        "description":  "Productoverzicht",
+        "price_with_tax":  "(Inc. {tax_label})",
+        "price_without_tax":  "(Bsp. {Tax_label})",
+        "including_tax":  "Met BTW",
+        "excluding_tax":  "Zonder BTW",
+        "weight":  "Gewicht",
+        "width":  "Breedte",
+        "height":  "Hoogte",
+        "depth":  "Diepte",
+        "measurement":  {
+            "metric":  "cm",
+            "imperial":  "im"
+        }, 
+        "you_save_opening_text":  "(Je bewaart",
+        "you_save_closing_bracket":  ")",
+        "gift_wrapping":  "Cadeauverpakking",
+        "gift_wrapping_available":  "Opties beschikbaar",
+        "quantity_min":  "De minimale order grootte is {aantal}",
+        "quantity_max":  "De maximale order grootte is {Aantal}",
+        "bulk_pricing":  {
+            "title":  "Bulkprijs",
+            "view":  "Koop bulk in en bespaar",
+            "modal_title":  "Bulk korting",
+            "instructions":  "Onderstaan zijn er bulk kortingen beschikbaar voor iedereen item apart wanneer je een bepaald bedrag aankoopt",
+            "range":  "Koop {min} {max, Plural, = 0 {of boven} andere {- #}}",
+            "percent":  "en krijg {Korting} ",
+            "price":  "en krijg {Korting} ",
+            "fixed":  "en betaal alleen {Korting}"
+        }, 
+        "starting_from": "Starting from:",
+        "select_value": "Kies een waarde"
+    }, 
+    "invoice": {
+        "for_order":  "{name} Factuur voor bestelling {id}",
+        "phone":  "Telefoonnummer}",
+        "email":  "Email Email}",
+        "order":  "Bestelling",
+        "payment_method":  "Betaalmethoude",
+        "order_date":  "Datum van bestellling",
+        "shipping_method":  "Verzending methode",
+        "order_items":  "Bestelling items",
+        "qty":  "Anzahl",
+        "code":  "Code / SKU",
+        "shipping_address":  "Adres van verzending",
+        "product_name":  "Productnaam",
+        "price":  "Prijs",
+        "total":  "Totaal",
+        "comments":  "Opmerkingen"
+    }, 
+    "newsletter":  {
+        "subscribe":  "Geef je op voor de nieuwsbrief",
+        "subscribe_intro":  "Krijg het laatste nieuws over producten en kortingen opgestuurd",
+        "subscribe_submit":  "Schrijf je in",
+        "email_placeholder":  "Jouw email",
+        "subscribed_heading":  "Bedankt voor inschrijven!",
+        "subscribed_heading_error":  "Oeps...",
+        "subscribed_message":  "Bedankt voor de inschrijving. Je zal bij de volgende nieuwsbrief worden meegenomen",
+        "unsubscribed_heading":  "Uitgeschreven",
+        "unsubscribed_message":  "Je zal geen marketing gerlateerde emails meer ontvangen van  <b> {Geschäftsname} </ b>."
+    }, 
+    "social":  {
+        "connect":  "Volg ons"
+    }, 
+    "errors":  {
+        "shipping_quote_failure":  "Er was een probleem met de verzending van je factuur",
+        "state_error":  "Er was een probleem het ophalen van de provincie"
+    }, 
+    "search":  {
+        "quick_search":  {
+            "input_label":  "Zoeken",
+            "input_placeholder":  "Zoeken"
+        }, 
+        "results":  {
+            "form_label":  "Zoekwoord",
+            "form_button_text":  "Zoek",
+            "count":  "{count, plural, een {# result} andere {# results}} voor '{{{search_query}}}'",
+            "quick_count":  "{count, plural, een{# product result} andere {# product results}} voor '{{{search_query}}}'",
+            "product_count":  "Product ({count})",
+            "content_count":  "Nieuws en informatie ({count})"
+        }, 
+        "faceted":  {
+            "title": "Filteren",
+            "selected":  {
+                "title":  "Filter opties",
+                "rating-label":  "Beoordeeld {Beoordeling, Plural, een {# Stern} andere {# Sterne}} of meer",
+                "no-filters":  "Geen filter toegevoegd",
+                "clear-all":  "Alles verwijderen"
+            }, 
+            "range":  {
+                "update":  "Updaten",
+                "min-placeholder":  "Min.",
+                "max-placeholder":  "Max."
+            }, 
+            "rating":  {
+                "and-up":  "& up"
+            }, 
+            "clear":  "Verwijderen",
+            "more":  "Meer",
+            "show-more":  "Zie meer",
+            "show-less":  "Zie minder",
+            "show-filters":  "Zie filter",
+            "hide-filters":  "Filter verbergen",
+            "browse-by":  "Zoeken op"
+        }, 
+        "error":  {
+            "empty_field":  "Zoekveld niet leeg zijn"
+        } 
+    }, 
+    "page_not_found":  {
+        "page_heading":  "404 error - pagine niet gevonden",
+        "message":  "Oeps! Het lijkt erop dat de pagina die je zoekt niet meer bestaat."
+    }, 
+    "server_error":  {
+        "page_heading":  "Er gaat iets mis...",
+        "message":  "De winkel is momenteel niet beschikbaar, probeer het later nog eens."
+    }, 
+    "forbidden":  {
+        "page_heading":  "Sorry! Je moet nog een keer inloggen",
+        "if_you_were_signed_in":  "als je aangemeld bent",
+        "sign_in":  "Meld je weer aan",
+        "to_continue":  ", vervolg je stappen in een nieuwe sessie."
+    }, 
+    "sitemap":  {
+        "page_title":  "Sitemap",
+        "show_all_link":  "Alles"
+    }, 
+    "text_truncate":  {
+        "view_more":  "Meer details",
+        "view_less":  "Details verbergen"
+    }, 
+    "maintenance": {
+        "down":  "Momenteel word er onderhoud gepleegd aan de website"
+    }, 
+    "admin":  {
+        "maintenance_header":  "Er wordt gewerkt aan de website.",
+        "maintenance_tooltip":  "Alleen admins kunnen de website momenteel zien. Ga naar control panel instellingen om de onderhouds stand aan te passen ",
+        "maintenance_showstore_link":  "Klik hier om te zien wat bezoekers willen zien.",
+        "prelaunch_header":  "Je winkel is prive. Deel de website met een preview code.", 
+        "page_builder_link":  "Ontwerp deze pagina met de page builder"
+    }, 
+    "optimized_checkout":  {
+        "address":  {
+            "address_line_1_label":  "Adres 1 ",
+            "address_line_1_required_error":  "Adres 1 is verplicht",
+            "address_line_2_label":  "Adres 2",
+            "address_line_2_required_error":  "Adres 1 is verplicht",
+            "address_not_recognized_heading":  "We hebben je adres niet herkent",
+            "city_label":  "Stad",
+            "city_required_error":  "Stad is verplicht",
+            "company_name_label":  "Bedrijfsnaam",
+            "company_name_required_error":  "Bedrijfsnaam invoeren",
+            "confirm_address_action":  "Ga door met huidig adres",
+            "confirm_address_text":  "We konden je adres niet vinden. Kan je nog een keer je adres invullen?",
+            "country_label":  "Land",
+            "country_required_error":  "Land invoeren",
+            "custom_required_error":  "{label} is nodig",
+            "custom_min_error":  "{label} moet groter zijn dan {min} ",
+            "custom_max_error":  "{label} moet kleiner zijn dan {max} ",
+            "custom_valid_error":  "{label} niet geldig",
+            "edit_address_action":  "Pas adres aan",
+            "enter_address_action":  "Voer nieuw adres in",
+            "first_name_label":  "Voornaam",
+            "first_name_required_error":  "Voornaam nodig",
+            "last_name_label":  "Achternaam",
+            "last_name_required_error":  "Achternaam is nodig",
+            "phone_number_label":  "Telefoonnummer",
+            "phone_number_required_error":  "Telefoonnummer is nodig",
+            "postal_code_label":  "Postcode",
+            "postal_code_required_error":  "Postode is nodig",
+            "select_country_action":  "Kies een land",
+            "select_state_action":  "Kies een Provincie",
+            "state_label":  "Provincie",
+            "state_required_error":  "Provincie is nodig",
+            "select":  "selecteer",
+            "select_all":  "Alles",
+            "select_none":  "Geen"
+        }, 
+        "billing":  {
+            "billing_address_heading":  "Factuur adres",
+            "billing_heading":  "Factuur",
+            "save_billing_address_error":  "Een fout vond zich plaats bij het opslaan van factuurdadres op je prijsopgave. Probeer het opnieuw",
+            "use_shipping_address_label":  "Mijn factuur adres is hetzelfde als mijn adres van verzending"
+        }, 
+        "cart":  {
+            "based_on_currency_text":  "Gebaseerd op {total} {code}",
+            "cart_heading":  "Bestel overzicht",
+            "digital_item_text":  "Digitaal item",
+            "discount_text":  "Korting",
+            "downloads_action":  "Ga naar downloads",
+            "edit_cart_action":  "Voeg toe aan je winkelmandje",
+            "estimated_total_text":  "Geschat totaal",
+            "free_text":  "Gratis",
+            "gift_certificate_text":  "Cadeaukaart",
+            "handling_text":  "Behandelen",
+            "item_count_text":  "{count, plural, one {1 Item} other {# Items}}",
+            "print_action":  "Print",
+            "remove_action":  "Verwijderen",
+            "see_all_action":  "Alles zien",
+            "see_less_action":  "Minder zien",
+            "shipping_text":  "Verzending",
+            "show_details_action":  "Laat alle details zien",
+            "store_credit_text":  "Winkel tegoed",
+            "subtotal_text":  "Subtotaal incl. BTW.)",
+            "taxes_text":  "Belasting",
+            "total_text":  "Totaal"
+        }, 
+        "common": {
+            "cancel_action":  "Verwijderen",
+            "close_action":  "Dicht",
+            "continue_action":  "Doorgaan",
+            "edit_action":  "Aanpassen",
+            "error_heading":  "Iets gaat fout",
+            "leave_warning":  "Weet je zeker dat je wilt gaan? Je gegevens kunnen verloren gaan.",
+            "loading_text":  "Aan het laden",
+            "ok_action":  "OK",
+            "optional_text":  "(Optional)",
+            "unavailable_error":  "Het winkelmandje is momenteel niet beschikbaar. Probeer het later nog eens.",
+            "unavailable_heading":  "Kassa is tijdelijk niet beschikbaar"
+        }, 
+        "customer":  {
+            "checkout_as_guest_text":  "Uitloggen als  <strong> Gast </ strong>? Je kan je gegevens opslaan door een Boost account aan te maken.",
+            "continue_as_guest_action":  "Doorgaan als gast",
+            "create_account_action":  "Account aanmaken",
+            "create_account_error":  "Een fout trad op bij het aanmaken van je account. Probeer het nog een keer",
+            "create_account_requirements_error_heading":  "Wachtwoord klopt niet met je gegevens",
+            "create_account_success":  "Je account is aangemaakt!",
+            "create_account_text":  "Maak een account aan om sneller te bestellen in de toekomst.",
+            "create_account_to_continue_text":  "Heb je al een account? <a href=\"/login.php?action=create_account\" target=\"_blank\"> Account aanmaken </a>, om verder te gaan.",
+            "guest_could_login":  "Het lijkt erop dat je een account hebt. Meld je aan met deze {email} voor een snellere bestelling",
+            "guest_must_login":  "Het lijkt erop dat je een account hebt. Meld je aan met deze {email} of een andere email  ",
+            "guest_temporary_disabled":  "De gast account is momenteel uitgeschakeld . Meld je aan<a href=\"{url}\" target=\"_blank\">of een maak een account aan</a> om door te gaan.",
+            "customer_heading":  "Klant",
+            "email_invalid_error":  "Email adres moet geldig zijn",
+            "email_label":  "Email Adres",
+            "email_required_error":  "Emailadres is nodig",
+            "forgot_password_action":  "Wachtwoord vergeten?",
+            "guest_customer_text":  "Gast ",
+            "guest_subscribe_to_newsletter_text":  "Schrijf je in voor de nieuwsbrief.",
+            "guest_marketing_consent":  "Ik wil graag updates and kortingen van Boostgaming.nl",
+            "login_action":  "Schrijf je nu in",
+            "login_text":  "Heb je al een account?",
+            "guest_could_login_change_email":  "Niet {email}? <a> Verander email </a>.",
+            "password_confirmation_error":  "Het wachtwoord werkt niet",
+            "password_confirmation_label":  "Bevestig je wachtwoord",
+            "password_confirmation_required_error":  "Dit veld is verplicht",
+            "password_label":  "Wachtwoord",
+            "password_letter_required_error":  "Wachtwoord heeft een letter nodig",
+            "password_minimum_character_label":  "Karakterlimiet, hoofdletter gevoelig",
+            "password_number_required_error":  "Wachtwoord heeft een cijfer nodig",
+            "password_over_maximum_length_error":  "Wachtwoord is te lang",
+            "password_required_error":  "Wachtwoord is nodig",
+            "password_under_minimum_length_error":  "Wachtwoord is te kort",
+            "reset_password_before_login_error":  "Inloggen is momenteel niet beschikbaar. U ontvangt binnen 5 minuten een e-mail met instructies om uw wachtwoord opnieuw in te stellen. Als u deze e-mail niet ontvangt, controleer dan uw map met ongewenste e-mail of neem contact met ons op voor verdere hulp. ",
+            "returning_customer_text":  "Terugkerende klant",
+            "sign_in_action":  "Aanmelden",
+            "sign_in_error":  "De email of wachtwoord is niet geldig.",
+            "sign_in_throttled_error":  "Doordat er te vaak verkeerd is ingelogd, moet je nu 10 seconden wachten voordat je weer kan inloggen.",
+            "sign_out_action":  "Uitloggen",
+            "sign_out_error":  "Een fout trede op bij het uitlogggen. Probeer het opnieuw.",
+            "SUBSCRIBE_TO_NEWSLETTER_TEXT":  "Ja, ik wil graag updates ontvangen."
+        }, 
+        "payment": {
+            "amazon_continue_action":  "ga door met Amazon",
+            "amazon_name_text":  "Amazon Pay",
+            "credit_card_cvv_label":  "CVV",
+            "credit_card_expiration_invalid_error":  "De verloopdatum moet geldig zijn met de toekomstige datum van MM / JJ format zijn",
+            "credit_card_expiration_label":  "Afloopdatum",
+            "credit_card_expiration_required_error":  "Afloopdatum is verplicht",
+            "credit_card_name_label":  "Naam op kaart",
+            "credit_card_name_required_error":  "Volledige naam is vereist",
+            "credit_card_cvv_invalid_error":  "CVV geldig zijn",
+            "credit_card_cvv_required_error":  "CVV is vereist",
+            "credit_card_cvv_help_text":  "Voor VISA en Mastercard is de CVV een driecijferige code die op de achterkant is gedrukt. Bij American Express is dat de viercijferige code die op de voorkant staat. Het CVV is een beveiligingsmaatregel om ervoor te zorgen dat u in het bezit bent van de kaart.",
+            "credit_card_number_invalid_error":  "Creditcardnummer moet geldig zijn",
+            "credit_card_number_label":  "Creditcardnummer",
+            "credit_card_number_required_error":  "Creditcardnummer is vereist",
+            "klarna_name_text":  "Klarna",
+            "payment_cancelled":  "De betaling is afgebroken",
+            "payment_error":  "Een fout is opgetreden tijdens het verwerken van je betaling. Probeer het nog eens",
+            "payment_heading":  "Betaalmethode",
+            "payment_method_disabled_error":  "De geselecteerde betaalmethode is niet meer geldig. Klik op OK om de meest actuele betaalmethoden te zien",
+            "payment_method_error":  "Antwoord van de payment provider",
+            "payment_method_invalid_error":  "Er is een probleem opgetreden bij het verwerken van uw betaling vanuit deze winkel. Neem contact op met de verkoper voor hulp of kies een andere betaalmethode.",
+            "payment_method_label":  "Betaalmethode",
+            "payment_method_unavailable_error":  "Deze payment provider werkt momenteel niet. Probeer het later nog eens.",
+            "payment_not_required_text":  "Een betaling is niet nodig voor deze bestelling.",
+            "paypal_continue_action":  "Ga door met PayPal",
+            "paypal_description_text":  "Betaal met je PayPal account",
+            "paypal_name_text":  "PayPal",
+            "place_order_action":  "Bestellen",
+            "place_order_error":  "Er was een fout opgetreden met het plaatsen van de order. Neem contact met ons op"
+        }, 
+        "redeemable":  {
+            "applied_text":  "Toegevoegd",
+            "apply_action":  "Toevoegen",
+            "apply_store_credit_after_action":  "Winkel tegoed.",
+            "apply_store_credit_before_action":  "Toevoegen",
+            "code_invalid_error":  "Cadeaukaart of promotiecode is ongeldig",
+            "code_label":  "Het cadeaukaart of promotiecode",
+            "code_required_error":  "Voeg je cadeaukaart of promotiecode toe",
+            "coupon_text":  "Coupon",
+            "gift_certificate_remaining_text":  "Overgebleven",
+            "gift_certificate_text":  "Cadeaukaart",
+            "remove_action":  "Verwijderen",
+            "store_credit_available_text":  "Jouw account heeft {storeCredit} totaal aan winkeltegoed",
+            "toggle_action":  "Promo / Cadeaukaart"
+        }, 
+        "remote":  {
+            "browser_unsupported":  "De geselecteerde betaal methode vereist een andere browser. Kies een andere betaalmethode.",
+            "connection_error":  "De verbinding met de bestellling op afstand is geweigerd, probeer later nog eens.",
+            "continue_with_text":  "Of ga verder met",
+            "payment_method_error":  "Er is een fout opgetreden met je externe betaalmethode.",
+            "session_error":  "Je sessie op afstand is verlopen. Log opnieuw in.",
+            "shipping_address_error":  "Er is een fout opgetreden omtrent je adresgegevens. Probeer opnieuw.",
+            "sign_out_action":  "Log uit {providerName}",
+            "sign_out_after_action":  "Andere betaal methode bekijken",
+            "sign_in_required_error":  "extern inloggen een vereiste voor betaling",
+            "sign_out_before_action":  ""
+        }, 
+        "shipping":  {
+            "cart_change_error":  "Er is een update van uw winkelwagen gedetecteerd en uw beschikbare verzendkosten zijn bijgewerkt. Selecteer een nieuwe verzendmethode om door te gaan",
+            "enter_shipping_address_text":  "Vul een afleveradres in om de verzendkosten te kunnen zien",
+            "order_comment_label":  "Bestelling commentaar",
+            "save_shipping_address_error":  "Er is een fout opgetreden bij het opslaan van het afleveradres in uw aanbieding. Probeer het opnieuw",
+            "save_shipping_option_error":  "Er is een fout opgetreden bij het opslaan van de verzendkosten in uw bestelling. Probeer het opnieuw.",
+            "select_shipping_address_text":  "Selecteer een afleveradres om de verzendkosten weer te geven",
+            "shipping_address_heading":  "Bezorgadres",
+            "shipping_heading":  "Verzending",
+            "shipping_method_label":  "Verzend methode",
+            "shipping_option_expired_error":  "De opgegeven verzendprijs is niet meer geldig. Klik op OK om de laatste verzendkosten te zien.",
+            "shipping_option_expired_heading":  "Je verzendkosten zijn bijgewerkt",
+            "view_shipping_options_action":  "Zie andere opties"
+        }, 
+        "social":  {
+            "share_action":  "Delen",
+            "share_heading":  "Vertel je vrienden over je aankoop!",
+            "tweet_action":  "Tweet"
+        }, 
+        "terms_and_conditions":  {
+            "agreement_required_error":  "Accepteer de algemene voorwaarden",
+            "agreement_text":  "Ja, ik stem in met de bovenstaande algemene voorwaarden",
+            "agreement_with_link_text": "Ja, ik ga akkoord met de <a href=\"{url}\" target=\"_blank\"> Algemene voorwaarde </a> en hierbij bevestig ik dat ik mijn recht op retour verlies zodra de code voor digitale content verstuurd is.", 
+            "terms_and_conditions_heading":  "Algemene voorwaarden"
+        }, 
+        "order_confirmation":  {
+            "order_number_text":  "Uw bestelnummer is <strong> {orderNumber} </ strong>",
+            "order_pending_review_text":  "Uw bestelling is verzonden, maar wacht momenteel op de betaling. Zodra wij de betaling voor uw bestelling hebben ontvangen, wordt deze afgerond. Als je al betalingsgegevens hebt opgegeven, verwerken we je bestelling en sturen we je een e-mail wanneer deze is voltooid ",
+            "order_pending_status_text":  "We hebben je bestelling ontvangen en verwerken de betaling. Zodra de betaling is bevestigd, wordt uw bestelling afgerond. We sturen je een e-mail als het klaar is. Houd er rekening mee dat dit proces even kan duren, afhankelijk van de verwerkingstijden. Als je vragen hebt over je aankoop, <a href = \"/contact-us\">stuur ons dan een e-mail</a>",
+            "order_incomplete_status_text":  "Wij hebben uw bestelling en betaling ontvangen. Uw bestelling wordt nu verwerkt door ons systeem. Houd er rekening mee dat de verwerking even kan duren. Als je vragen hebt over je aankoop, <a href = \"/contact-us\">stuur ons dan een e-mail</a>",
+            "order_with_downloadable_digital_items_text":  "Je ontvangt een aparte e-mailbevestiging met de link om je digitale vouchers te downloaden",
+            "order_with_support_number_text":  "Er wordt een e-mail verzonden met informatie over uw aankoop. Als je vragen hebt over je aankoop, gebruik dan het onderstaande formulier <a href=\"/contact-us/\"> Contact </  het klantenservice team. a> Pagina of bel ons op:",
+            "order_without_downloadable_digital_items_text":  "Zodra we je betaling hebben ontvangen, sturen we een bevestigingsmail met een link om je digitale aankopen te downloaden.",
+            "order_without_support_number_text":  "Een e-mail zal naar je gestuurd worden met de informatie over je aankoop. Als je vragen hebt over je aankoop, neem dan contact op met onze klantenservice via het contactformulier<a href=\"/contact-us/\"> Kontakt </ an unseren Support. a> Seite.",
+            "thank_you_customer_heading":  "Bedankt!",
+            "thank_you_heading":  "Bedankt!",
+            "continue_shopping":  "Vind meer Boosts» ",
+            "order_status_update_facebook_messenger_heading":  "Ontvang updates van je bestellling via Facebook messenger"
+        }
+    },
+    "validation_messages": {
+        "valid_email": "U moet een geldig e-mailadres invoeren.",
+        "password": "U moet een wachtwoord invoeren.",
+        "password_match": "De wachtwoorden komen niet overeen.",
+        "invalid_password": "Wachtwoorden moeten minimaal 7 tekens lang zijn en zowel alfabetische als numerieke tekens bevatten.",
+        "field_not_blank": " veld mag niet leeg zijn.",
+        "certificate_amount": "You must enter a gift certificate amount.",
+        "certificate_amount_range": "You must enter a certificate amount between [MIN] and [MAX]",
+        "price_min_evaluation": "Min. price must be less than max. price.",
+        "price_max_evaluation": "Min. price must be less than max. price.",
+        "price_min_not_entered": "Min. price is required.",
+        "price_max_not_entered": "Max. price is required.",
+        "price_invalid_value": "Input must be greater than 0.",
+        "invalid_gift_certificate": "Please enter your valid certificate code."
+    },
+    "validation_fallback_messages": {
+        "valid_email": "U moet een geldig e-mailadres invoeren.",
+        "password": "U moet een wachtwoord invoeren.",
+        "password_match": "De wachtwoorden komen niet overeen.",
+        "invalid_password": "Wachtwoorden moeten minimaal 7 tekens lang zijn en zowel alfabetische als numerieke tekens bevatten.",
+        "field_not_blank": " veld mag niet leeg zijn.",
+        "certificate_amount": "You must enter a gift certificate amount.",
+        "certificate_amount_range": "You must enter a certificate amount between [MIN] and [MAX]",
+        "price_min_evaluation": "Min. price must be less than max. price.",
+        "price_max_evaluation": "Min. price must be less than max. price.",
+        "price_min_not_entered": "Min. price is required.",
+        "price_max_not_entered": "Max. price is required.",
+        "price_invalid_value": "Input must be greater than 0.",
+        "invalid_gift_certificate": "Please enter your valid certificate code."
+    },
+    "validation_default_messages": {
+        "valid_email": "U moet een geldig e-mailadres invoeren.",
+        "password": "U moet een wachtwoord invoeren.",
+        "password_match": "De wachtwoorden komen niet overeen",
+        "invalid_password": "Wachtwoorden moeten minimaal 7 tekens lang zijn en zowel alfabetische als numerieke tekens bevatten.",
+        "field_not_blank": " veld mag niet leeg zijn.",
+        "certificate_amount": "You must enter a gift certificate amount.",
+        "certificate_amount_range": "You must enter a certificate amount between [MIN] and [MAX]",
+        "price_min_evaluation": "Min. price must be less than max. price.",
+        "price_max_evaluation": "Min. price must be less than max. price.",
+        "price_min_not_entered": "Min. price is required.",
+        "price_max_not_entered": "Max. price is required.",
+        "price_invalid_value": "Input must be greater than 0.",
+        "invalid_gift_certificate": "Please enter your valid certificate code."
+    },
+    "currency":  {
+        "currency-symbol":  "€"
+        }
+}

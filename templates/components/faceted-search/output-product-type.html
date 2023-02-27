@@ -1,0 +1,20 @@
+{{assignVar "incremented" 'false'}}
+{{#each facets}}
+    {{#if title '===' 'Product Type'}}
+        {{#each items}}
+            {{#if @index '===' (getVar "currentIndex") }}
+                {{#if (getVar "incremented") '!==' 'true' }}
+                    <div class="home-featured-cont">
+                        <h2 id="{{dashcase title}}" class="home-featured-title">
+                            {{#replace '&amp;' title}}&{{else}}{{title}}{{/replace}}
+                        </h2>
+                        {{region name=(concat "type_link_" (getVar 'currentIndex'))}}
+                    </div>
+                    {{assignVar "currentProductType" title}}
+                    <p style="display:none">{{incrementVar "currentIndex"}}</p>
+                    {{assignVar "incremented" 'true'}}
+                {{/if}}
+            {{/if}}
+        {{/each}}
+    {{/if}}
+{{/each}}

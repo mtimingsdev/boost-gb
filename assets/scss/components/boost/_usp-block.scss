@@ -1,0 +1,74 @@
+// =============================================================================
+// USP BLOCK (CSS)
+// =============================================================================
+
+.usp-wrap {
+    background-color: stencilColor("usp-bg");
+}
+
+.usp-container {
+
+    @include breakpoint("medium") {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.usp-link {
+    text-decoration: none;
+}
+
+.usp-block {
+    width: 100%;
+    position: relative;
+    color: black;
+
+    &:not(:first-child) {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 4px;
+        line-height: 1rem;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+
+        @include breakpoint("large") {
+            font-size: 14px;
+        }
+    }
+
+    @include breakpoint("medium") {
+        width: 31%;
+        
+        &:not(:first-child) {
+            display: inline-block;
+        }
+    }
+}
+
+.usp-content {
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.2px;
+
+    @include breakpoint("medium") {
+        padding: 10px 10px; 
+    }
+
+    @include breakpoint("large") {
+        padding: 8px 10px 2px 10px; 
+        letter-spacing: 1.5px;
+    }
+
+    .icon {
+        height: 32px;
+        width: 32px;
+        font-size: 28px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,157 @@
+// =============================================================================
+// SEARCH
+// =============================================================================
+
+.search-suggestion {
+    margin-bottom: spacing("single") + spacing("third");
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.suggestion-title {
+    margin-top: 0;
+    text-transform: inherit;
+}
+
+.advancedSearch-form {
+    margin-bottom: spacing("double");
+
+    .form-row {
+        margin-bottom: -(spacing("single"));
+    }
+}
+
+.quickSearchResults {
+    margin-top: spacing("single");
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: $cod-grey-dark;
+
+    @include breakpoint("medium") {
+        margin-top: 0;
+    }
+
+    .modal-close {
+        display: none;
+
+        @include breakpoint("medium") {
+            display: block;
+        }
+    }
+
+    .productGrid {
+        height: 400px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+         .product {
+            width: 100%;
+        }
+    }
+
+    .card {
+        border: 0;
+        padding: 0;
+        display: block;
+        margin-bottom: spacing("half");
+        overflow: hidden;
+
+        .card-img-container {
+            max-width: none;
+            float: left;
+            padding: spacing("quarter");
+
+            img {
+                padding: 0;
+                width: 100px;
+                height: 50px;
+            }
+        }
+
+        .card-title {
+            font-size: 0.8em;
+        }
+
+        .card-body {
+            background-color: transparent;
+            padding: spacing("quarter");
+        }
+
+        .card-text {
+            .from-price {
+                position: static;
+                top: auto;
+            }
+
+            .price {
+                float: none;
+                font-size: 0.8em;
+            }
+        }
+
+        .card-figcaption,
+        .card-figcaption-body {
+            display: none;
+        }
+    }
+
+    
+}
+
+.advancedSearch-separator {
+    display: none;
+}
+
+.advancedSearch-title {
+    margin: 0 0 spacing("single");
+    text-transform: inherit;
+}
+
+.search-price-range {
+    label {
+        display: inline;
+
+        // scss-lint:disable SelectorDepth, NestingDepth
+        input {
+            display: block;
+            padding-left: spacing("single");
+
+            @include breakpoint("small") {
+                display: inline;
+                width: 6rem;
+            }
+        }
+
+        // scss-lint:disable SelectorDepth, NestingDepth
+        span {
+            @include breakpoint("small") {
+                display: inline;
+                padding-left: spacing("single");
+                padding-right: spacing("single");
+            }
+        }
+    }
+}
+
+.category-suggestion-list {
+    @include grid-row($behavior: "nest");
+    list-style-type: none;
+}
+
+.category-suggestion {
+    @include grid-column(4);
+    font-size: fontSize("smaller");
+}
+
+.search-refine {
+    margin-left: spacing("single");
+}
+
+.quickSearchMessage {
+    font-size: fontSize("base");
+    text-align: center;
+    margin: 0;
+}

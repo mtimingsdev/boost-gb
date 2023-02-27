@@ -1,0 +1,33 @@
+<div style="padding: 0px 20px 20px 20px;">
+    <h2 style="font-size: 22px; padding-bottom: 4px; color: #cc6600; border-bottom: dashed 1px gray;">Confirmation for Return Request for Order ID #%%GLOBAL_OrderId%%</h2>
+    <div style="width: 100%; padding: 10px; background-color: #fff4ea;">
+        <img src="https://cdn11.bigcommerce.com/r-7f3397d2ae83e8b48dd889540b7b618246f07f43/themes/ClassicNext/images/InfoMessage.gif" alt="" />&nbsp; A summary of your return is shown below. To view the status of this return <a href="%%GLOBAL_ShopPath%%/account.php?view=returns">click here</a>.
+    </div>
+    <br />
+    <table style="width: 100%;" cellspacing="0" cellpadding="4">
+        <tbody>
+            <tr>
+                <td style="font-family: Arial; font-size: 12px; font-weight: bold;" nowrap="nowrap" width="25%">Return Reason:</td>
+                <td style="font-family: Arial; font-size: 12px;">%%GLOBAL_ReturnReason%%</td>
+            </tr>
+            <tr style="display: %%GLOBAL_HideReturnAction%%;">
+                <td style="font-family: Arial; font-size: 12px; font-weight: bold;" nowrap="nowrap" width="25%">Return Action:</td>
+                <td style="font-family: Arial; font-size: 12px;">%%GLOBAL_ReturnAction%%</td>
+            </tr>
+            <tr>
+                <td style="font-family: Arial; font-size: 12px; font-weight: bold;" valign="top" nowrap="nowrap">Your Comments:</td>
+                <td style="font-family: Arial; font-size: 12px;">%%GLOBAL_ReturnComments%%</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3 style="font-size: 13px; color: #cc6600;">Your Return Request Contains the Following Items...</h3>
+    <table id="CheckoutCartGrid" style="width: 100%;" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td style="font-family: Arial; font-size: 12px; background-color: #020b6f; color: white; padding: 5px; font-weight: bold;" nowrap="nowrap">Return Items</td>
+                <td style="font-family: Arial; font-size: 12px; background-color: #020b6f; color: white; padding: 5px; font-weight: bold;" nowrap="nowrap" width="120">Qty</td>
+            </tr>
+        </tbody>
+    </table>
+    %%SNIPPET_ReturnItems%% %%GLOBAL_EmailFooter%%
+</div>

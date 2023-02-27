@@ -1,0 +1,27 @@
+<div style="padding: 0 20px 20px 20px;">
+    <h2 style="font-size: 22px; padding-bottom: 4px; color: #cc6600; border-bottom: dashed 1px gray;">Order Status Changed</h2>
+    <p>%%GLOBAL_OrderStatusChangedHi%%</p>
+    <p>An order you recently placed on our website has had its status changed.</p>
+    <p>%%GLOBAL_OrderNumberStatusChangedTo%%</p>
+    <h3 style="font-size: 13px; color: #cc6600;">Order Details</h3>
+    %%SNIPPET_RefundedAmountRow%%
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td style="font-family: Arial; font-size: 13px; font-weight: bold;" valign="top" nowrap="nowrap" width="25%">Order Total:</td>
+                <td style="font-family: Arial; font-size: 13px;">%%GLOBAL_OrderTotal%%</td>
+            </tr>
+            <tr>
+                <td style="font-family: Arial; font-size: 13px; font-weight: bold;" valign="top" nowrap="nowrap" width="25%">Date Placed:</td>
+                <td style="font-family: Arial; font-size: 13px;">%%GLOBAL_DatePlaced%%</td>
+            </tr>
+            <tr>
+                <td style="font-family: Arial; font-size: 13px; font-weight: bold;" valign="top" nowrap="nowrap" width="25%">Payment Method:</td>
+                <td style="font-family: Arial; font-size: 13px;">%%GLOBAL_PaymentMethod%%</td>
+            </tr>
+        </tbody>
+    </table>
+    %%SNIPPET_ShippedItems%% %%SNIPPET_ToBeShippedItems%% %%SNIPPET_ShipmentTracking%% %%SNIPPET_DownloadableItems%%
+    <p>%%GLOBAL_ViewOrderStatusLink%%</p>
+    %%GLOBAL_EmailFooter%%
+</div>

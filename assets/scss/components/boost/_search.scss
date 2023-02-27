@@ -1,0 +1,26 @@
+.dropdown--quickSearch, .navPages-quickSearch {
+    
+    .form-field {
+        position: relative;
+
+        .btn-search-clear-text {
+            position: absolute;
+            right: 45px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .btn-search-submit{
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            height: 22px;
+            transform: translateY(-50%);
+
+            .search-icon {
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+}

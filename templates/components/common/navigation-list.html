@@ -1,0 +1,66 @@
+{{#if children}}
+<a class="navPages-action navPages-action-depth-max has-subMenu is-root{{#if is_active}} activePage{{/if}}" href="{{url}}" data-collapsible="navPages-{{id}}">
+        {{#if name '===' 'Shop by brand'}} {{lang 'category.menu_label.brand'}}
+        {{else if name '===' 'Shop by products'}} {{lang 'category.menu_label.products'}}
+        {{else}} {{name}}
+        {{/if}}
+     <i class="icon navPages-action-moreIcon" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i> <span class="navPages-back-text">Back</span>
+</a>
+<div class="navPage-subMenu" id="navPages-{{id}}" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+        {{assignVar "parent" name}}
+        {{#each (limit children 16)}}
+        
+        {{#if (getVar 'parent') '===' 'Shop by brand'}}  
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}" href="{{url}}">
+                    <img src="/product_images/uploaded_images/{{dashcase name}}.png" alt="{{name}} Navigation Logo" class="navPage-brand-logo">
+                    <p class="navPage-subMenu-name">{{name}} <i class="nav-chevron icon-chevron-right"></i></p>
+                </a>
+            </li>
+        {{else}}   
+        {{#if (getVar 'parent') '===' 'Nach Marken einkaufen'}}  
+            <li class="navPage-subMenu-item">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}" href="{{url}}">
+                    <img src="/product_images/uploaded_images/{{dashcase name}}.png" alt="{{name}} Navigation Logo" class="navPage-brand-logo">
+                    <p class="navPage-subMenu-name">{{name}} <i class="nav-chevron icon-chevron-right"></i></p>
+                </a>
+            </li> 
+        {{else}}      
+            <li class="navPage-subMenu-item navPage-item-horizontal">
+                <a class="navPage-subMenu-action navPages-action{{#if is_active}} activePage{{/if}}" href="{{url}}">
+                    <img src="/product_images/uploaded_images/{{dashcase name}}.png" alt="{{name}} Icon" class="navPage-navItem-icon">
+                    <p class="navPage-subMenu-name">{{name}} <i class="nav-chevron icon-chevron-right"></i></p>
+                </a>
+            </li>
+        {{/if}}  
+        {{/if}}
+
+        {{/each}}
+        <li class="navPage-subMenu-item navPage-all-item">
+            {{#if (getVar 'parent') '===' 'Shop by brand'}}
+                <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.brand'}}</a>
+            {{/if}}
+            {{#if (getVar 'parent') '===' 'Nach Marken einkaufen'}}
+                <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.brand'}}</a>
+            {{/if}}
+            {{#if (getVar 'parent') '===' 'Zoek per Merk'}}
+                <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.brand'}}</a>
+            {{/if}}
+            {{#if (toLowerCase (getVar 'parent')) '===' 'games'}}
+                <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.games'}}</a>
+            {{/if}}
+            {{#if (toLowerCase (getVar 'parent')) '===' 'zoeken op spel'}}
+            <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.games'}}</a>
+            {{/if}}
+        </li>
+    </ul>
+    {{#if name '===' 'Shop by brand'}}
+        {{> components/boost/menu-highlight-brands}}
+    {{else}}
+        {{> components/boost/menu-highlight-products}}
+    {{/if}}
+</div>
+{{else}}
+<a class="navPages-action{{#if is_active}} activePage{{/if}}" href="{{url}}">{{name}}</a>
+{{/if}}

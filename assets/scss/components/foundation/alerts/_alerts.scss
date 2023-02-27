@@ -1,0 +1,41 @@
+// =============================================================================
+// ALERTS
+// =============================================================================
+
+.alertBox {
+    border-radius: $alert-radius;
+    color: stencilColor("alert-color");
+}
+
+.alertBox-icon {
+    .icon {
+        @include square(25px);
+    }
+}
+
+.alertBox--info {
+    color: $radical-red;
+    border: 1px solid $radical-red;
+    background-color: transparent;
+
+    .alertBox-icon {
+        svg {
+            fill: $radical-red;
+        }
+    }
+
+    .alertBox-close {
+
+        // scss-lint:disable SelectorDepth, NestingDepth
+        svg {
+            fill: $radical-red;
+        }
+    }
+}
+
+.alertBox--success,
+.alertBox--error {
+    svg {
+        fill: #1D1D1D;
+    }
+}

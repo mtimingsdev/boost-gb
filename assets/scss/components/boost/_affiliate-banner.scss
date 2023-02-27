@@ -1,0 +1,48 @@
+.bk-category {
+    &.affiliate-banner {
+        background-position: left 17% top;
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+    
+            @include breakpoint("medium") {
+                overflow: hidden;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+        }
+    
+        h1 {
+            text-transform: uppercase;
+            line-height: 1.2em;
+            
+            @include breakpoint("medium") {
+                line-height: 36px;
+            }
+        }
+    }
+}
+
+.ab-cont {
+    @include breakpoint("medium") {
+        @include grid-column(6);
+        padding-left: 0;
+    }
+
+    .button {
+        margin-right: spacing("single") 0 0 0;
+    }
+}
+
+.affiliate-share {
+    display: flex;
+    align-items: center;
+}
+
+.affiliate-share-txt {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: spacing('single');
+}

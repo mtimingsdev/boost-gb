@@ -1,0 +1,225 @@
+// =============================================================================
+// FOOTER (CSS)
+// =============================================================================
+
+
+// Layout and columns
+// -----------------------------------------------------------------------------
+//
+// 1. To enable the grid's display: inline-block; to work properly, we need to
+//    remove the white-space that it creates between columns with font-size: 0;
+// 2. Re-set the font-size that was reduced to 0 in point 1 for children.
+//
+// -----------------------------------------------------------------------------
+
+.footer {
+    background-color: $footer-background;
+    padding: spacing("half") 0;
+
+    address {
+        font-style: normal;
+        color: $white;
+    }
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-info {
+    font-size: 0; // 1
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include breakpoint("medium") {
+        flex-direction: row;
+    }
+}
+
+.footer-info-col {
+    color: stencilColor("color-textSecondary");
+    display: inline-block;
+    float: none;
+    font-size: 0.8235rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    vertical-align: top;
+
+    @include breakpoint("medium") {
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    > :first-child {
+        margin-top: 0;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.footer-info-col--boost {
+    text-align: center;
+    color: $white; 
+
+    @include breakpoint("medium") {
+        width: auto;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    img {
+        @include breakpoint("medium") {
+            max-width: 100px;
+        }
+
+        @include breakpoint("large") {
+            max-width: none;
+        }
+    }
+
+
+    .footer-boost {
+        font-size: 14px;
+        margin-top: spacing("half");
+    }
+
+    .footer-cd {
+        font-size: 10px;
+    }
+}
+
+.footer-info-col--right {
+    @include breakpoint("small") {
+        left: 50%;
+        position: inherit;
+    }
+
+    @include breakpoint("medium") {
+        left: 0;
+        padding: 0;
+        text-align: right;
+    }
+}
+
+
+// Content
+// -----------------------------------------------------------------------------
+
+.footer-info-heading {
+    color: $footer-heading-fontColor;
+    font-family: $header-font-family;
+    font-size: 0.8235rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    text-align: center;
+
+    @include breakpoint("medium") {
+        text-align: left;
+    }
+
+    &.payment {
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+.footer-info-list {
+    list-style: none;
+    margin-left: 0;
+
+    a {
+        color: $white;
+        text-decoration: none;
+
+        // scss-lint:disable NestingDepth
+        &:hover {
+            color: stencilColor("color-textSecondary--hover");
+        }
+        // scss-lint:enable NestingDepth
+    }
+}
+
+.footer-copyright {
+    text-align: center;
+
+    @include breakpoint("small") {
+        text-align: left;
+    }
+
+    > .powered-by {
+        color: stencilColor("color-textSecondary");
+        font-size: fontSize("tiny");
+        margin: 0;
+    }
+
+    a {
+        color: stencilColor("color-textSecondary");
+        text-decoration: none;
+
+        // scss-lint:disable NestingDepth
+        &:hover {
+            color: stencilColor("color-textSecondary--hover");
+        }
+        // scss-lint:enable NestingDepth
+    }
+}
+
+.footer-payment-info {
+    text-align: center;
+    margin-bottom: 15px;
+
+    @include breakpoint("medium") {
+        text-align: left;
+    }
+}
+
+.footer-payment-icons {
+    height: remCalc(40);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    @include breakpoint("medium") {
+        text-align: left;
+    }
+
+    .footer-payment-icon {
+        margin: spacing("quarter");
+        vertical-align: middle;
+        width: remCalc(50);
+
+        @include breakpoint("large") {
+            width: remCalc(70);
+        }
+    }
+
+    svg {
+        fill: stencilColor("icon-color");
+    }
+}
+
+.footer-geotrust-ssl-seal {
+    @include breakpoint("small") {
+        bottom: 0;
+        position: absolute;
+        right: 16px;
+    }
+
+    table {
+        margin: auto;
+    }
+}
+
+.footer-newsletter-summary {
+    text-align: left;
+}
+
+
+#truste-consent-button, #truste-consent-required {
+    font-size: 0.9rem!important;
+}
