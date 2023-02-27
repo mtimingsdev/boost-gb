@@ -241,10 +241,10 @@
 .form-increment {
     .button--quantity {
         svg {
-            fill: stencilColor("form-increment-color");
+            fill: $radical-red;
 
             &:hover {
-                fill: stencilColor("form-increment-color-hover");
+                fill: $white;
             }
         }
     }

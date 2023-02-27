@@ -33,7 +33,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: stencilColor("button--default-colorHover");
+        background: $radical-red;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
         -webkit-transform-origin: 0 50%;
@@ -51,7 +51,7 @@
     &:focus,
     &:active {
         color: $cod-grey-dark;
-        border-color: stencilColor("button--default-colorHover");
+        border-color: $radical-red;
 
         &:before {
             -webkit-transform: scaleX(1);
@@ -107,8 +107,4 @@ input {
     svg {
         fill: stencilColor("button--icon-svg-color");
     }
-}
-
-.button--primary:before {
-    background: stencilColor("button--primary-colorHover");
 }

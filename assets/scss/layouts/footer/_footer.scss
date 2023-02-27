@@ -183,6 +183,8 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 300px;
 
     @include breakpoint("medium") {
         text-align: left;
@@ -192,6 +194,7 @@
         margin: spacing("quarter");
         vertical-align: middle;
         width: remCalc(50);
+        height: inherit;
 
         @include breakpoint("large") {
             width: remCalc(70);

@@ -22,30 +22,20 @@
 .breadcrumb {
     display: inline-block;
     float: none;
-    color: stencilColor("breadcrumb-color");
 
     &.is-active {
 
         // scss-lint:disable NestingDepth
         > .breadcrumb-label {
             cursor: text;
-            color: stencilColor("breadcrumb-color");
         }
-    }
-    &:before {
-        color: stencilColor("breadcrumb-color");
-    }
-
-    a {
-        color: stencilColor("breadcrumb-color");
     }
 }
 
 .breadcrumb-label {
     text-decoration: none;
-    color: stencilColor("breadcrumb-color");
 
     &:hover {
-        color: stencilColor("breadcrumb-hover");
+        color: $radical-red;
     }
 }

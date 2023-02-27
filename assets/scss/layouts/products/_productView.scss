@@ -51,7 +51,6 @@
     padding-right: spacing("base");
     position: relative;
     background-color: $cod-grey-light;
-    color: #ffffff;
     float: none;
     
     &:before, 
@@ -76,7 +75,6 @@
         margin-bottom: spacing("base");
         padding-left: spacing("base");
         padding-right: spacing("base");
-        color: stencilColor("product-description-title-color");
     }
 
     .productView-description {

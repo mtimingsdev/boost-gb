@@ -4,9 +4,13 @@
 
 .block.bk-category.affiliate-banner.franchise {
     padding-bottom: 0;
-    min-height: 109px;
+    display: flex;
+    justify-content: center;
+    background: $color-secondaryDark;
+        min-height: 109px;
 
-    @include breakpoint("large") {
+    
+        @include breakpoint("large") {
       min-height: 500px;
   }
 
@@ -23,6 +27,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 table.vbucks {
     border: 10px solid #FF627F;

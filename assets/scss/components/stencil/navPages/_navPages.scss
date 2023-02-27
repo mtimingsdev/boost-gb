@@ -46,7 +46,7 @@
     position: absolute;
     right: 0;
     z-index: zIndex("lower");
-    background-color: stencilColor("topnavbar-bg");
+    background-color: $cod-grey-light;
 
     @include breakpoint("medium") {
         display: block;
@@ -141,8 +141,8 @@
         text-transform: uppercase;
         
         @include breakpoint("medium") {
-            &:hover, &:active, &:focus  {
-                background-color: stencilColor("navPages-subMenu-activeColor");;
+            &:hover, &:active {
+                background-color: $radical-red;
                 color: black;
     
                 svg {
@@ -377,7 +377,7 @@
 
         @include breakpoint("medium") {
             display: flex;
-            border: 2px solid stencilColor("navPages-subMenu-borderColor");;
+            border: 2px solid $radical-red;
             z-index: 10;
         }
     }
@@ -432,10 +432,6 @@
             text-align: center;
         }
     }
-
-    .button--primary {
-        background-color: stencilColor("navPages-subMenu-button"); 
-    }
 }
 
 .navPage-subMenu-item-child,
@@ -461,7 +457,7 @@
 
 .navPage-subMenu-action {
     padding: spacing("half") 0;
-    color: stencilColor("navPages-color");
+    color: $radical-red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -469,11 +465,6 @@
     @include breakpoint("medium") {
         padding: spacing("half") 0 spacing("half");
     }
-
-    &:hover, &:focus {
-        color: stencilColor("navPages-color-hover");
-    }
-    
 }
 
 .navPage-item-horizontal {

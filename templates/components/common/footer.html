@@ -137,10 +137,12 @@
                     </li>
                     {{/if}}
 
-                    {{#if (lang 'footer.second_menu.cookie_settings.show') '===' 'true'}}
-                    <li>
-                        <div id="teconsent"></div>
-                    </li>
+                    {{#if theme_settings.region '===' 'EU'}}
+                        {{#if (lang 'footer.second_menu.cookie_settings.show') '===' 'true'}}
+                        <li>
+                            <div id="teconsent"></div>
+                        </li>
+                        {{/if}}
                     {{/if}}
                 </ul>
             </article>

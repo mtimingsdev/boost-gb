@@ -430,7 +430,7 @@ body {
 }
 
 .footer {
-    background-color: stencilColor("footer-backgroundColor");
+    background-color: #1D1D1D;
     padding: spacing("half") 0;
 
     @media (max-width: 968px) {

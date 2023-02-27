@@ -11,7 +11,6 @@
 .body {
     margin-bottom: spacing("single");
     // margin-top: spacing("single"); // 1
-    color: stencilColor("color-textBase");
 
     @include breakpoint("medium") {
         margin-bottom: spacing("double");

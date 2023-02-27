@@ -47,12 +47,12 @@
             {{#if (getVar 'parent') '===' 'Zoek per Merk'}}
                 <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.brand'}}</a>
             {{/if}}
+            
             {{#if (toLowerCase (getVar 'parent')) '===' 'games'}}
                 <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.games'}}</a>
             {{/if}}
-            {{#if (toLowerCase (getVar 'parent')) '===' 'zoeken op spel'}}
-            <a class="button button--primary" href="{{url}}">{{lang 'category.view_all.games'}}</a>
-            {{/if}}
+         
+        </li>
         </li>
     </ul>
     {{#if name '===' 'Shop by brand'}}

@@ -135,7 +135,6 @@
     font-size: fontSize("small");
     // margin: -(spacing("half")) 0 spacing("quarter");
     font-weight: bold;
-    color: stencilColor("product-view-title-color");
 
     @include breakpoint("medium") {
         // margin-top: spacing("single");
@@ -309,10 +308,6 @@
 
     input[type="file"] {
         font-size: fontSize("smallest"); // 3
-    }
-
-    .form-label {
-        color: stencilColor("product-view-form-label-color");    
     }
 
     .form-field {

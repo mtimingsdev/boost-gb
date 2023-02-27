@@ -3,10 +3,11 @@
 // =============================================================================
 
 .usp-wrap {
-    background-color: stencilColor("usp-bg");
+    background-color: $radical-red;
 }
 
 .usp-container {
+    // @extend .full-width;
 
     @include breakpoint("medium") {
         display: flex;

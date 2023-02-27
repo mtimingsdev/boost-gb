@@ -38,19 +38,6 @@
 
     h2 {
         margin: 0;
-        color: stencilColor("home-featured-cont-color");
-        
-    }
-
-    & .button {
-        border-color: stencilColor("featured-cont-button-border");
-        color: stencilColor("featured-cont-button-font-color"); 
-        background: stencilColor("featured-cont-button-bg");
-
-
-    }
-    & .button:hover {
-        background: #84b1ce;
     }
 }
 
